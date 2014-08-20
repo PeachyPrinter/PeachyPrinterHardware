@@ -1,0 +1,918 @@
+﻿<?xml encoding = "utf-8" version = "1.0"?>
+<smartcarve>
+  <workspace>
+    <language id = "10001" type = "enum" value = "english">
+      <english id = "10001" value = "en_us.xml"/>
+    </language>
+    <unit_type type = "enum" value = "Metric">
+      <Metric id = "6004"/>
+      <British id = "6005"/>
+    </unit_type>
+    <shape id = "10003" type = "enum" value = "rectangle">
+      <rectangle id = "10007"/>
+      <ellipse id = "10008"/>
+    </shape>
+    <machine_menu type = "int" value = "0"/>
+    <ShowTreeCtrl id = "" type = "bool" value = "false"/>
+    <width id = "10004" default = "1000000" type = "int" value = "1000000"/>
+    <height id = "10005" default = "800000" type = "int" value = "800000"/>
+    <Unit_Type id = "11002" default = "0" type = "int" value = "Metric"/>
+    <Paste_X id = "11003" default = "1.0" type = "double" value = "0.00000"/>
+    <Paste_Y id = "11004" default = "1.0" type = "double" value = "0.00000"/>
+    <Show_Grid id = "11005" default = "false" type = "bool" value = "false"/>
+    <Grid_Space id = "11006" default = "10.0" type = "double" value = "10.00000"/>
+    <BackColor id = "11007" default = "0xFFFFFF" type = "color" value = "16777215"/>
+    <WorkSpaceColor id = "11008" default = "0x000000" type = "color" value = "0"/>
+    <GridColor id = "11009" default = "0xC8C8C8" type = "color" value = "13158600"/>
+    <RulerColor id = "11100" default = "0xFFFFFF" type = "color" value = "16777215"/>
+    <ShowWorkSpace id = "11010" default = "true" type = "bool" value = "true"/>
+    <CircleWorkSpace id = "11011" default = "false" type = "bool" value = "false"/>
+    <bMultiLaser id = "" default = "false" type = "bool" value = "false"/>
+    <LaserDis id = "" default = "0.0" type = "double" value = "1.00000"/>
+    <AxisLine id = "11012" default = "true" type = "bool" value = "true"/>
+    <LeftBottomX id = "11013" default = "0.0" type = "double" value = "0.00000"/>
+    <LeftBottomY id = "11014" default = "0.0" type = "double" value = "0.00000"/>
+    <AutoCalcCenter id = "11028" default = "0" type = "bool" value = "false"/>
+    <EnableAutoSave id = "11015" default = "false" type = "bool" value = "true"/>
+    <AutoSaveInterval id = "11016" default = "10" type = "int" value = "1"/>
+    <NudgeDist id = "11017" default = "1.0" type = "double" value = "1.00000"/>
+    <NudgeScale id = "11018" default = "10.0" type = "double" value = "10.00000"/>
+    <RotateAngle id = "11019" default = "15.0" type = "double" value = "15.00000"/>
+    <EnableUser id = "11020" default = "false" type = "bool" value = "false"/>
+    <objectListHeight id = "11022" default = "150" type = "int" value = "150"/>
+    <LayerListHeight id = "11023" default = "150" type = "int" value = "151"/>
+    <InputNo id = "11024" default = "0" type = "int" value = "0"/>
+    <ToOriginX id = "11025" default = "0.0" type = "double" value = "0.00000"/>
+    <ToOriginY id = "11026" default = "0.0" type = "double" value = "0.00000"/>
+    <Max_Num id = "" default = "500" type = "int" value = "500"/>
+    <set_cvtprec default = "200" value = "20"/>
+    <small_graph_size default = "100" value = "10"/>
+    <link_line_prec default = "20" value = "20"/>
+    <default_layer id = "10006" type = "int" value = "0"/>
+    <current_layer id = "10009" type = "int" value = "0"/>
+    <coordinate_type id = "10010" type = "int" value = "0"/>
+    <object_list id = "" type = "bool" value = "true"/>
+    <layer_list id = "" type = "bool" value = "false"/>
+    <border id = "10022" default = "true" type = "bool" value = "true"/>
+    <color_bkgnd id = "" type = "color" value = "0xFFFFFF"/>
+    <color_frgnd id = "" type = "color" value = "0x000000"/>
+    <Grade id = "" default = "100" type = "UINT" value = "100"/>
+    <ruler type = "bool" value = "true"/>
+    <grid type = "bool" value = "false"/>
+    <ExportFile value = "c:"/>
+    <CutLength value = "500"/>
+    <UseCurrentData value = "false"/>
+    <SnapGraph value = "0"/>
+    <object_dockpage derive = "0" value = "0">
+      <width id = "" default = "235" type = "int" value = "239"/>
+      <height id = "" default = "777" type = "int" value = "689"/>
+      <visible id = "" type = "bool" value = "true"/>
+      <hide id = "" type = "bool" value = "false"/>
+      <dockpos id = "" type = "int" value = "1"/>
+      <dockpage id = "" type = "int" value = "0"/>
+      <active id = "" type = "int" value = "0"/>
+      <beginX id = "" type = "int" value = "0"/>
+      <beginY id = "" type = "int" value = "123"/>
+      <combine id = "" num = "0" type = "enum"/>
+    </object_dockpage>
+    <layer_dockpage derive = "0" value = "1">
+      <width id = "" default = "285" type = "int" value = "403"/>
+      <height id = "" default = "777" type = "int" value = "689"/>
+      <visible id = "" type = "bool" value = "true"/>
+      <hide id = "" type = "bool" value = "false"/>
+      <dockpos id = "" type = "int" value = "2"/>
+      <dockpage id = "" type = "int" value = "1"/>
+      <active id = "" type = "int" value = "0"/>
+      <beginX id = "" type = "int" value = "1106"/>
+      <beginY id = "" type = "int" value = "123"/>
+      <combine id = "" num = "0" type = "enum"/>
+    </layer_dockpage>
+    <convert_dockpage derive = "0" value = "2">
+      <width id = "" default = "190" type = "int" value = "0"/>
+      <height id = "" default = "380" type = "int" value = "0"/>
+      <visible id = "" type = "bool" value = "false"/>
+      <hide id = "" type = "bool" value = "false"/>
+      <dockpos id = "" type = "int" value = "1"/>
+      <dockpage id = "" type = "int" value = "2"/>
+      <active id = "" type = "int" value = "0"/>
+      <beginX id = "" type = "int" value = "0"/>
+      <beginY id = "" type = "int" value = "123"/>
+      <combine id = "" num = "0" type = "enum"/>
+    </convert_dockpage>
+    <graphicLib_dockpage derive = "0" value = "5">
+      <width id = "" default = "235" type = "int" value = "235"/>
+      <height id = "" default = "800" type = "int" value = "864"/>
+      <visible id = "" type = "bool" value = "false"/>
+      <hide id = "" type = "bool" value = "false"/>
+      <dockpos id = "" type = "int" value = "1"/>
+      <dockpage id = "" type = "int" value = "3"/>
+      <active id = "" type = "int" value = "0"/>
+      <beginX id = "" type = "int" value = "126"/>
+      <beginY id = "" type = "int" value = "124"/>
+      <combine id = "" num = "0" type = "enum"/>
+    </graphicLib_dockpage>
+    <vision_dockpage derive = "3" value = "3">
+      <width id = "" default = "790" type = "int" value = "790"/>
+      <height id = "" default = "600" type = "int" value = "600"/>
+      <visible id = "" type = "bool" value = "true"/>
+      <hide id = "" type = "bool" value = "false"/>
+      <dockpos id = "" type = "int" value = "2"/>
+      <dockpage id = "" type = "int" value = "4"/>
+      <active id = "" type = "int" value = "-1"/>
+      <beginX id = "" type = "int" value = "0"/>
+      <beginY id = "" type = "int" value = "0"/>
+      <combine id = "" num = "0" type = "enum"/>
+    </vision_dockpage>
+    <control_dockpage derive = "2" value = "4">
+      <width id = "" default = "700" type = "int" value = "700"/>
+      <height id = "" default = "210" type = "int" value = "210"/>
+      <visible id = "" type = "bool" value = "true"/>
+      <hide id = "" type = "bool" value = "false"/>
+      <dockpos id = "" type = "int" value = "2"/>
+      <dockpage id = "" type = "int" value = "4"/>
+      <active id = "" type = "int" value = "-1"/>
+      <beginX id = "" type = "int" value = "0"/>
+      <beginY id = "" type = "int" value = "0"/>
+      <combine id = "" num = "0" type = "enum"/>
+    </control_dockpage>
+    <cursor id = "13001" type = "enum" value = "normal">
+      <normal id = "13002"/>
+      <precision id = "13003"/>
+      <cross id = "13004"/>
+    </cursor>
+    <PathOpt>
+      <OutPathOpt value = "true"/>
+      <Method value = "0"/>
+      <WorkStart value = "2"/>
+      <LineStart value = "1"/>
+      <InToOut value = "true"/>
+      <SortByLayer value = "true"/>
+      <SubAreaWidth value = "100000.000000"/>
+      <SubAreaHeight value = "100000.000000"/>
+    </PathOpt>
+    <text_size value = "10"/>
+    <Text_Font value = "@Batang"/>
+    <Text_FontType value = "0"/>
+  </workspace>
+  <GTConfig>
+    <StartVel value = "8.333"/>
+    <JumpVel value = "200.0"/>
+    <JumpAcc value = "2000.0"/>
+    <MaxAcc value = "3000.0"/>
+    <JogMode value = "0"/>
+    <JumpDelay value = "30"/>
+    <TurnKp value = "0.01"/>
+    <SmallCirKp value = "0.7"/>
+    <LaserNum value = "1"/>
+    <AdjustMode value = "1"/>
+    <PowerType value = "2"/>
+    <PowerCtrl value = "0"/>
+    <PowerType2 value = "2"/>
+    <PowerCtrl2 value = "0"/>
+    <PWMFrq value = "5"/>
+    <PWMFrq2 value = "5"/>
+    <MaxEnergy value = "100.0"/>
+    <MaxDutyCycle value = "100.0"/>
+    <MaxDutyCycle2 value = "100.0"/>
+    <HoldFrq value = "0"/>
+    <HoldFrq2 value = "0"/>
+    <HoldPWM value = "0"/>
+    <HoldPWM2 value = "0"/>
+    <PWMDuty value = "50"/>
+    <PWMDuty2 value = "50"/>
+    <PreVltg value = "1.0"/>
+    <PreVltg2 value = "1.0"/>
+    <MaxVltg value = "3.333"/>
+    <MaxVltg2 value = "3.333"/>
+    <ConX value = "160.0"/>
+    <ConY value = "160.0"/>
+    <ConZ value = "160.0"/>
+    <ConA value = "160.0"/>
+    <HomeStyleX value = "0"/>
+    <HomeStyleY value = "0"/>
+    <HomeStyleZ value = "0"/>
+    <HomeStyleA value = "0"/>
+    <HomeDirX value = "1"/>
+    <HomeDirY value = "1"/>
+    <HomeDirZ value = "1"/>
+    <HomeDirA value = "1"/>
+    <HomeVelX value = "80.0"/>
+    <HomeVelY value = "80.0"/>
+    <HomeVelZ value = "80.0"/>
+    <HomeVelA value = "80.0"/>
+    <HomeOffsetX value = "15.0"/>
+    <HomeOffsetY value = "15.0"/>
+    <HomeOffsetZ value = "15.0"/>
+    <HomeOffsetA value = "15.0"/>
+    <StartAuto value = "0"/>
+    <OpenCover value = "0"/>
+    <Controller value = "1"/>
+    <ControlMode value = "1"/>
+    <ControlMode2 value = "1"/>
+    <ControlMode3 value = "1"/>
+    <ControlMode4 value = "1"/>
+    <DriverAlarm value = "0"/>
+    <DriverAlarm2 value = "0"/>
+    <DriverAlarm3 value = "0"/>
+    <DriverAlarm4 value = "0"/>
+    <MachineType value = "0"/>
+    <SoftLmtX value = "600.0"/>
+    <SoftLmtY value = "400.0"/>
+    <SoftLmtZ value = "9999.0"/>
+    <SoftLmtA value = "9999.0"/>
+    <SetPosX value = "0.0"/>
+    <SetPosY value = "0.0"/>
+    <LmtSns value = "255"/>
+    <HomeSns value = "0"/>
+    <ScaleXmin value = "0.0"/>
+    <ScaleXmax value = "0.0"/>
+    <ScaleYmin value = "0.0"/>
+    <ScaleYmax value = "0.0"/>
+    <BacklashX value = "0.0"/>
+    <BacklashY value = "0.0"/>
+    <FTPPath value = ""/>
+    <IP0 value = "192.168.1.8"/>
+    <EngReverse value = "0"/>
+    <LaserRatio value = "0.1"/>
+    <ScaleVel value = "100.0"/>
+    <ScaleAcc value = "1000.0"/>
+    <ScaleEnergy value = "50.0"/>
+    <LaserTime value = "100"/>
+    <ScalePdis value = "5.0"/>
+    <ScaleOffset value = "0.0"/>
+    <ScaleMode value = "0"/>
+    <CycNum value = "1"/>
+    <CurNum value = "0"/>
+    <TotalNum value = "0"/>
+    <StartPt value = "0"/>
+    <FinishBeep value = "3"/>
+    <NumPerCol value = "1"/>
+    <NumPerRow value = "1"/>
+    <RowDis value = "0.0"/>
+    <ColDis value = "0.0"/>
+    <MisMatchX value = "0.0"/>
+    <MisMatchY value = "0.0"/>
+    <RowMirrorX value = "0"/>
+    <RowMirrorY value = "0"/>
+    <ColMirrorX value = "0"/>
+    <ColMirrorY value = "0"/>
+    <FeedAxis value = "0"/>
+    <FeedVel value = "100.0"/>
+    <FeedDis value = "0.0"/>
+    <ZMinDis value = "130.0"/>
+    <ManAdjust value = "0"/>
+    <FeedLast value = "1"/>
+    <VelRatio value = "100.0"/>
+    <PowerRatio value = "100.0"/>
+    <CornerRatio value = "100.0"/>
+    <BacklashAdjust value = "0.0"/>
+    <Language value = "0"/>
+    <RotateAxis value = "10.0"/>
+    <APulseNum value = "20000"/>
+    <OutXPos1 value = "533.33"/>
+    <OutXPos2 value = "1066.67"/>
+    <PenOffsetX value = "0.0"/>
+    <PenOffsetY value = "0.0"/>
+    <TransDis value = "0.0"/>
+    <TransAxisNum value = "0"/>
+    <ExpDataType value = "1"/>
+    <CutLength value = "900"/>
+    <CutMode value = "1"/>
+    <CurveMode value = "0"/>
+    <Kp value = "1.0"/>
+    <Kp2 value = "1.0"/>
+    <Kp3 value = "1.0"/>
+    <Kp4 value = "1.0"/>
+    <Ki value = "0.0"/>
+    <Ki2 value = "0.0"/>
+    <Ki3 value = "0.0"/>
+    <Ki4 value = "0.0"/>
+    <Kd value = "0.0"/>
+    <Kd2 value = "0.0"/>
+    <Kd3 value = "0.0"/>
+    <Kd4 value = "0.0"/>
+    <Kvff value = "0.0"/>
+    <Kvff2 value = "0.0"/>
+    <Kvff3 value = "0.0"/>
+    <Kvff4 value = "0.0"/>
+    <Kaff value = "0.0"/>
+    <Kaff2 value = "0.0"/>
+    <Kaff3 value = "0.0"/>
+    <Kaff4 value = "0.0"/>
+    <ILmt value = "32767"/>
+    <ILmt2 value = "32767"/>
+    <ILmt3 value = "32767"/>
+    <ILmt4 value = "32767"/>
+    <MtrLmt value = "32767"/>
+    <MtrLmt2 value = "32767"/>
+    <MtrLmt3 value = "32767"/>
+    <MtrLmt4 value = "32767"/>
+    <MtrBias value = "0"/>
+    <MtrBias2 value = "0"/>
+    <MtrBias3 value = "0"/>
+    <MtrBias4 value = "0"/>
+    <PosErr value = "32767"/>
+    <PosErr2 value = "32767"/>
+    <PosErr3 value = "32767"/>
+    <PosErr4 value = "32767"/>
+    <MotionDelay value = "0"/>
+    <SmoothKp value = "0.33000"/>
+    <LaserOffDelay value = "0"/>
+    <LaserOnDelay value = "0"/>
+    <AutoFindZero value = "0"/>
+    <AutoFocus value = "0"/>
+    <AutoFocusKp value = "0.1"/>
+    <AutoFocusVltg value = "0.0"/>
+    <AutoFocusVltgMin value = "-10.0"/>
+    <AutoFocusVltgMax value = "10.0"/>
+    <SnsOffsetX value = "0.0"/>
+    <SnsOffsetY value = "0.0"/>
+    <PowerComp value = "0"/>
+    <PowerComp2 value = "0"/>
+    <LaserOutPort value = "1"/>
+    <LaserOutPort2 value = "0"/>
+    <PowerCompenAxis value = "0"/>
+    <PowerCompenAxis2 value = "0"/>
+    <PowerCompenKp value = "0.0"/>
+    <PowerCompenKp2 value = "0.0"/>
+  </GTConfig>
+  <Vision>
+    <VisionType value = "1"/>
+    <GrapMode value = "0"/>
+    <WantNum value = "1"/>
+    <Accept value = "0.6"/>
+    <Threshold value = "15"/>
+    <Bright value = "50"/>
+    <Contrast value = "3"/>
+    <Confusion value = "0.8"/>
+    <Overlap value = "0.3"/>
+    <CrossW value = "12"/>
+    <CrossH value = "12"/>
+    <RowDis value = "0.0000"/>
+    <ColDis value = "0.0000"/>
+    <Rows value = "1"/>
+    <Cols value = "1"/>
+    <StartPos value = "0"/>
+    <DisX value = "0.0000"/>
+    <DisY value = "0.0000"/>
+    <SpaceX value = "0.0"/>
+    <SpaceY value = "0.0"/>
+    <Angle value = "0.0"/>
+    <VisionConX value = "0.13"/>
+    <VisionConY value = "0.13"/>
+    <VisionConA value = "0"/>
+    <Calibration value = ""/>
+    <GranuValue value = "20"/>
+    <GranuValue2 value = "19"/>
+    <NoiseThre value = "10"/>
+    <TotalMagThre value = "500"/>
+    <MinAngle value = "0"/>
+    <MaxAngle value = "0"/>
+    <MinScale value = "1"/>
+    <MaxScale value = "1"/>
+    <CalDisX value = "10"/>
+    <CalDisY value = "10"/>
+    <OffsetAngle value = "0.0"/>
+    <WorkspaceX value = "100.0"/>
+    <WorkspaceY value = "100.0"/>
+    <VisionWidth value = "100.0"/>
+    <VisionHeight value = "100.0"/>
+    <JumpDelay value = "100.0"/>
+    <CutType value = "0"/>
+    <CameraType value = "0"/>
+    <CalType value = "1"/>
+    <VisionRatioX value = "0.0"/>
+    <VisionRatioY value = "0.0"/>
+    <ModelList value = ""/>
+    <SeekTool value = "0"/>
+    <Accuracy value = "1"/>
+    <CoarsestScale value = "3"/>
+    <RotMin value = "-45.0"/>
+    <RotMax value = "45.0"/>
+    <WorkMode value = "0"/>
+  </Vision>
+  <Backlash_table>
+    <table0 backlash = "0.0" minvalue = "0" maxvalue = "5"/>
+    <table1 backlash = "0.0" minvalue = "5" maxvalue = "10"/>
+    <table2 backlash = "0.0" minvalue = "10" maxvalue = "15"/>
+    <table3 backlash = "0.0" minvalue = "15" maxvalue = "20"/>
+    <table4 backlash = "0.0" minvalue = "20" maxvalue = "25"/>
+    <table5 backlash = "0.0" minvalue = "25" maxvalue = "30"/>
+    <table6 backlash = "0.0" minvalue = "30" maxvalue = "35"/>
+    <table7 backlash = "0.0" minvalue = "35" maxvalue = "40"/>
+    <table8 backlash = "0.0" minvalue = "40" maxvalue = "45"/>
+    <table9 backlash = "0.0" minvalue = "45" maxvalue = "50"/>
+  </Backlash_table>
+  <backlash_table_fc>
+    <table0 backlash = "0.00000" max_vel = "5.00000" min_vel = "0.00000"/>
+    <table1 backlash = "0.00000" max_vel = "10.00000" min_vel = "5.00000"/>
+    <table2 backlash = "0.00000" max_vel = "15.00000" min_vel = "10.00000"/>
+    <table3 backlash = "0.00000" max_vel = "20.00000" min_vel = "15.00000"/>
+    <table4 backlash = "0.00000" max_vel = "25.00000" min_vel = "20.00000"/>
+    <table5 backlash = "0.00000" max_vel = "30.00000" min_vel = "25.00000"/>
+    <table6 backlash = "0.00000" max_vel = "35.00000" min_vel = "30.00000"/>
+    <table7 backlash = "0.00000" max_vel = "40.00000" min_vel = "35.00000"/>
+    <table8 backlash = "0.00000" max_vel = "45.00000" min_vel = "40.00000"/>
+    <table9 backlash = "0.00000" max_vel = "50.00000" min_vel = "45.00000"/>
+  </backlash_table_fc>
+  <focus_table>
+    <table0 facula = "0.10000" focus = "0.50000"/>
+    <table1 facula = "0.20000" focus = "1.00000"/>
+    <table2 facula = "0.30000" focus = "1.50000"/>
+    <table3 facula = "0.40000" focus = "2.00000"/>
+    <table4 facula = "0.50000" focus = "2.50000"/>
+    <table5 facula = "0.60000" focus = "3.00000"/>
+    <table6 facula = "0.70000" focus = "3.50000"/>
+    <table7 facula = "0.80000" focus = "4.00000"/>
+    <table8 facula = "0.90000" focus = "4.50000"/>
+    <table9 facula = "1.00000" focus = "5.00000"/>
+    <table10 facula = "1.10000" focus = "5.50000"/>
+    <table11 facula = "1.19998" focus = "6.00000"/>
+    <table12 facula = "1.30000" focus = "6.50000"/>
+    <table13 facula = "1.39998" focus = "7.00000"/>
+    <table14 facula = "1.50000" focus = "7.50000"/>
+    <table15 facula = "1.60000" focus = "8.00000"/>
+    <table16 facula = "1.70000" focus = "8.50000"/>
+    <table17 facula = "1.80000" focus = "9.00000"/>
+    <table18 facula = "1.90000" focus = "9.50000"/>
+    <table19 facula = "2.00000" focus = "10.00000"/>
+  </focus_table>
+  <expCarveOut1>
+    <Port value = "7"/>
+    <OriginMode value = "current"/>
+    <FeedCount value = "0"/>
+    <CloneRow value = "1"/>
+    <CloneColumn value = "1"/>
+    <CutEdge value = "0"/>
+    <CutVel value = "100.000"/>
+    <CutPower value = "0.00"/>
+    <RotateDiameter value = "0"/>
+    <focus_index value = "0"/>
+  </expCarveOut1>
+  <impDxfFile>
+    <showText value = "0"/>
+    <enableDrill value = "0"/>
+    <drillTime value = "100"/>
+  </impDxfFile>
+  <impPltFile>
+    <Precision value = "1016.00"/>
+  </impPltFile>
+  <layer_list>
+    <layer process_media = "0" prior = "1" color = "0x00FF0000" visible = "true" id = "0" name = "1" acc = "0" process = "true" frequency = "0" end_power = "500" speed = "40000" begin_power = "500" laser_way = "15"/>
+    <layer process_media = "0" prior = "2" color = "0x0000FF00" visible = "true" id = "1" name = "2" acc = "0" process = "true" frequency = "0" end_power = "10000" speed = "18800" begin_power = "10000" laser_way = "15"/>
+    <layer process_media = "0" prior = "3" color = "0x000000FF" visible = "true" id = "2" name = "3" acc = "0" process = "true" frequency = "0" end_power = "3000" speed = "40000" begin_power = "6000" laser_way = "15"/>
+    <layer process_media = "0" prior = "4" color = "0x00800000" visible = "true" id = "3" name = "4" acc = "0" process = "true" frequency = "0" end_power = "1000" speed = "40000" begin_power = "4000" laser_way = "15"/>
+    <layer process_media = "0" prior = "5" color = "0x00008000" visible = "true" id = "4" name = "5" acc = "0" process = "true" frequency = "0" end_power = "10000" speed = "19000" begin_power = "10000" laser_way = "15"/>
+    <layer process_media = "0" prior = "6" color = "0x00000080" visible = "true" id = "5" name = "6" acc = "0" process = "true" frequency = "0" end_power = "1000" speed = "200000" begin_power = "2000" laser_way = "15"/>
+    <layer process_media = "0" prior = "7" color = "0x00808000" visible = "true" id = "6" name = "7" acc = "0" process = "true" frequency = "0" end_power = "1000" speed = "200000" begin_power = "2000" laser_way = "15"/>
+    <layer process_media = "0" prior = "8" color = "0x00008080" visible = "true" id = "7" name = "8" acc = "0" process = "true" frequency = "0" end_power = "1000" speed = "200000" begin_power = "2000" laser_way = "15"/>
+    <layer process_media = "0" prior = "9" color = "0x00808080" visible = "true" id = "8" name = "9" acc = "0" process = "true" frequency = "0" end_power = "1000" speed = "200000" begin_power = "2000" laser_way = "15"/>
+    <layer process_media = "0" prior = "10" color = "0x00000000" visible = "true" id = "9" name = "10" acc = "0" process = "true" frequency = "0" end_power = "1000" speed = "200000" begin_power = "2000" laser_way = "15"/>
+    <layer process_media = "0" prior = "11" color = "0x00000000" visible = "true" id = "10" name = "11" acc = "0" process = "true" frequency = "0" end_power = "1000" speed = "200000" begin_power = "2000" laser_way = "15"/>
+    <layer process_media = "0" prior = "12" color = "0x00000000" visible = "true" id = "11" name = "12" acc = "0" process = "true" frequency = "0" end_power = "1000" speed = "200000" begin_power = "2000" laser_way = "15"/>
+    <layer process_media = "0" prior = "13" color = "0x00000000" visible = "true" id = "12" name = "13" acc = "0" process = "true" frequency = "0" end_power = "1000" speed = "200000" begin_power = "2000" laser_way = "15"/>
+    <layer process_media = "0" prior = "14" color = "0x00000000" visible = "true" id = "13" name = "14" acc = "0" process = "true" frequency = "0" end_power = "1000" speed = "200000" begin_power = "2000" laser_way = "15"/>
+    <layer process_media = "0" prior = "15" color = "0x00000000" visible = "true" id = "14" name = "15" acc = "0" process = "true" frequency = "0" end_power = "1000" speed = "200000" begin_power = "2000" laser_way = "15"/>
+    <layer process_media = "0" prior = "16" color = "0x00000000" visible = "true" id = "15" name = "16" acc = "0" process = "true" frequency = "0" end_power = "1000" speed = "200000" begin_power = "2000" laser_way = "15"/>
+    <layer process_media = "0" prior = "17" color = "0x00000000" visible = "true" id = "16" name = "17" acc = "0" process = "true" frequency = "0" end_power = "1000" speed = "200000" begin_power = "2000" laser_way = "15"/>
+    <layer process_media = "0" prior = "18" color = "0x00000000" visible = "true" id = "17" name = "18" acc = "0" process = "true" frequency = "0" end_power = "1000" speed = "200000" begin_power = "2000" laser_way = "15"/>
+    <layer process_media = "0" prior = "19" color = "0x00000000" visible = "true" id = "18" name = "19" acc = "0" process = "true" frequency = "0" end_power = "1000" speed = "200000" begin_power = "2000" laser_way = "15"/>
+    <layer process_media = "0" prior = "20" color = "0x00000000" visible = "true" id = "19" name = "20" acc = "0" process = "true" frequency = "0" end_power = "1000" speed = "200000" begin_power = "2000" laser_way = "15"/>
+    <layer process_media = "0" prior = "21" color = "0x00000000" visible = "true" id = "20" name = "21" acc = "0" process = "true" frequency = "0" end_power = "1000" speed = "200000" begin_power = "2000" laser_way = "15"/>
+    <layer process_media = "0" prior = "22" color = "0x00000000" visible = "true" id = "21" name = "22" acc = "0" process = "true" frequency = "0" end_power = "1000" speed = "200000" begin_power = "2000" laser_way = "15"/>
+    <layer process_media = "0" prior = "23" color = "0x00000000" visible = "true" id = "22" name = "23" acc = "0" process = "true" frequency = "0" end_power = "1000" speed = "200000" begin_power = "2000" laser_way = "15"/>
+    <layer process_media = "0" prior = "24" color = "0x00000000" visible = "true" id = "23" name = "24" acc = "0" process = "true" frequency = "0" end_power = "1000" speed = "200000" begin_power = "2000" laser_way = "15"/>
+    <layer process_media = "0" prior = "25" color = "0x00000000" visible = "true" id = "24" name = "25" acc = "0" process = "true" frequency = "0" end_power = "1000" speed = "200000" begin_power = "2000" laser_way = "15"/>
+    <layer process_media = "0" prior = "26" color = "0x00000000" visible = "true" id = "25" name = "26" acc = "0" process = "true" frequency = "0" end_power = "1000" speed = "200000" begin_power = "2000" laser_way = "15"/>
+    <layer process_media = "0" prior = "27" color = "0x00000000" visible = "true" id = "26" name = "27" acc = "0" process = "true" frequency = "0" end_power = "1000" speed = "200000" begin_power = "2000" laser_way = "15"/>
+    <layer process_media = "0" prior = "28" color = "0x00000000" visible = "true" id = "27" name = "28" acc = "0" process = "true" frequency = "0" end_power = "1000" speed = "200000" begin_power = "2000" laser_way = "15"/>
+    <layer process_media = "0" prior = "29" color = "0x00000000" visible = "true" id = "28" name = "29" acc = "0" process = "true" frequency = "0" end_power = "1000" speed = "200000" begin_power = "2000" laser_way = "15"/>
+    <layer process_media = "0" prior = "30" color = "0x00000000" visible = "true" id = "29" name = "30" acc = "0" process = "true" frequency = "0" end_power = "1000" speed = "200000" begin_power = "2000" laser_way = "15"/>
+    <layer process_media = "0" prior = "31" color = "0x00000000" visible = "true" id = "30" name = "31" acc = "0" process = "true" frequency = "0" end_power = "1000" speed = "200000" begin_power = "2000" laser_way = "15"/>
+    <layer process_media = "0" prior = "32" color = "0x00000000" visible = "true" id = "31" name = "32" acc = "0" process = "true" frequency = "0" end_power = "1000" speed = "200000" begin_power = "2000" laser_way = "15"/>
+    <layer process_media = "0" prior = "33" color = "0x00000000" visible = "true" id = "32" name = "33" acc = "0" process = "true" frequency = "0" end_power = "1000" speed = "200000" begin_power = "2000" laser_way = "15"/>
+    <layer process_media = "0" prior = "34" color = "0x00000000" visible = "true" id = "33" name = "34" acc = "0" process = "true" frequency = "0" end_power = "1000" speed = "200000" begin_power = "2000" laser_way = "15"/>
+    <layer process_media = "0" prior = "35" color = "0x00000000" visible = "true" id = "34" name = "35" acc = "0" process = "true" frequency = "0" end_power = "1000" speed = "200000" begin_power = "2000" laser_way = "15"/>
+    <layer process_media = "0" prior = "36" color = "0x00000000" visible = "true" id = "35" name = "36" acc = "0" process = "true" frequency = "0" end_power = "1000" speed = "200000" begin_power = "2000" laser_way = "15"/>
+    <layer process_media = "0" prior = "37" color = "0x00000000" visible = "true" id = "36" name = "37" acc = "0" process = "true" frequency = "0" end_power = "1000" speed = "200000" begin_power = "2000" laser_way = "15"/>
+    <layer process_media = "0" prior = "38" color = "0x00000000" visible = "true" id = "37" name = "38" acc = "0" process = "true" frequency = "0" end_power = "1000" speed = "200000" begin_power = "2000" laser_way = "15"/>
+    <layer process_media = "0" prior = "39" color = "0x00000000" visible = "true" id = "38" name = "39" acc = "0" process = "true" frequency = "0" end_power = "1000" speed = "200000" begin_power = "2000" laser_way = "15"/>
+    <layer process_media = "0" prior = "40" color = "0x00000000" visible = "true" id = "39" name = "40" acc = "0" process = "true" frequency = "0" end_power = "1000" speed = "200000" begin_power = "2000" laser_way = "15"/>
+    <layer process_media = "0" prior = "41" color = "0x00000000" visible = "true" id = "40" name = "41" acc = "0" process = "true" frequency = "0" end_power = "1000" speed = "200000" begin_power = "2000" laser_way = "15"/>
+    <layer process_media = "0" prior = "42" color = "0x00000000" visible = "true" id = "41" name = "42" acc = "0" process = "true" frequency = "0" end_power = "1000" speed = "200000" begin_power = "2000" laser_way = "15"/>
+    <layer process_media = "0" prior = "43" color = "0x00000000" visible = "true" id = "42" name = "43" acc = "0" process = "true" frequency = "0" end_power = "1000" speed = "200000" begin_power = "2000" laser_way = "15"/>
+    <layer process_media = "0" prior = "44" color = "0x00000000" visible = "true" id = "43" name = "44" acc = "0" process = "true" frequency = "0" end_power = "1000" speed = "200000" begin_power = "2000" laser_way = "15"/>
+    <layer process_media = "0" prior = "45" color = "0x00000000" visible = "true" id = "44" name = "45" acc = "0" process = "true" frequency = "0" end_power = "1000" speed = "200000" begin_power = "2000" laser_way = "15"/>
+    <layer process_media = "0" prior = "46" color = "0x00000000" visible = "true" id = "45" name = "46" acc = "0" process = "true" frequency = "0" end_power = "1000" speed = "200000" begin_power = "2000" laser_way = "15"/>
+    <layer process_media = "0" prior = "47" color = "0x00000000" visible = "true" id = "46" name = "47" acc = "0" process = "true" frequency = "0" end_power = "1000" speed = "200000" begin_power = "2000" laser_way = "15"/>
+    <layer process_media = "0" prior = "48" color = "0x00000000" visible = "true" id = "47" name = "48" acc = "0" process = "true" frequency = "0" end_power = "1000" speed = "200000" begin_power = "2000" laser_way = "15"/>
+    <layer process_media = "0" prior = "49" color = "0x00000000" visible = "true" id = "48" name = "49" acc = "0" process = "true" frequency = "0" end_power = "1000" speed = "200000" begin_power = "2000" laser_way = "15"/>
+    <layer process_media = "0" prior = "50" color = "0x00000000" visible = "true" id = "49" name = "50" acc = "0" process = "true" frequency = "0" end_power = "1000" speed = "200000" begin_power = "2000" laser_way = "15"/>
+    <layer process_media = "0" prior = "51" color = "0x00000000" visible = "true" id = "50" name = "51" acc = "0" process = "true" frequency = "0" end_power = "1000" speed = "200000" begin_power = "2000" laser_way = "15"/>
+    <layer process_media = "0" prior = "52" color = "0x00000000" visible = "true" id = "51" name = "52" acc = "0" process = "true" frequency = "0" end_power = "1000" speed = "200000" begin_power = "2000" laser_way = "15"/>
+    <layer process_media = "0" prior = "53" color = "0x00000000" visible = "true" id = "52" name = "53" acc = "0" process = "true" frequency = "0" end_power = "1000" speed = "200000" begin_power = "2000" laser_way = "15"/>
+    <layer process_media = "0" prior = "54" color = "0x00000000" visible = "true" id = "53" name = "54" acc = "0" process = "true" frequency = "0" end_power = "1000" speed = "200000" begin_power = "2000" laser_way = "15"/>
+    <layer process_media = "0" prior = "55" color = "0x00000000" visible = "true" id = "54" name = "55" acc = "0" process = "true" frequency = "0" end_power = "1000" speed = "200000" begin_power = "2000" laser_way = "15"/>
+    <layer process_media = "0" prior = "56" color = "0x00000000" visible = "true" id = "55" name = "56" acc = "0" process = "true" frequency = "0" end_power = "1000" speed = "200000" begin_power = "2000" laser_way = "15"/>
+    <layer process_media = "0" prior = "57" color = "0x00000000" visible = "true" id = "56" name = "57" acc = "0" process = "true" frequency = "0" end_power = "1000" speed = "200000" begin_power = "2000" laser_way = "15"/>
+    <layer process_media = "0" prior = "58" color = "0x00000000" visible = "true" id = "57" name = "58" acc = "0" process = "true" frequency = "0" end_power = "1000" speed = "200000" begin_power = "2000" laser_way = "15"/>
+    <layer process_media = "0" prior = "59" color = "0x00000000" visible = "true" id = "58" name = "59" acc = "0" process = "true" frequency = "0" end_power = "1000" speed = "200000" begin_power = "2000" laser_way = "15"/>
+    <layer process_media = "0" prior = "60" color = "0x00000000" visible = "true" id = "59" name = "60" acc = "0" process = "true" frequency = "0" end_power = "1000" speed = "200000" begin_power = "2000" laser_way = "15"/>
+    <layer process_media = "0" prior = "61" color = "0x00000000" visible = "true" id = "60" name = "61" acc = "0" process = "true" frequency = "0" end_power = "1000" speed = "200000" begin_power = "2000" laser_way = "15"/>
+    <layer process_media = "0" prior = "62" color = "0x00000000" visible = "true" id = "61" name = "62" acc = "0" process = "true" frequency = "0" end_power = "1000" speed = "200000" begin_power = "2000" laser_way = "15"/>
+    <layer process_media = "0" prior = "63" color = "0x00000000" visible = "true" id = "62" name = "63" acc = "0" process = "true" frequency = "0" end_power = "1000" speed = "200000" begin_power = "2000" laser_way = "15"/>
+    <layer process_media = "0" prior = "64" color = "0x00000000" visible = "true" id = "63" name = "64" acc = "0" process = "true" frequency = "0" end_power = "1000" speed = "200000" begin_power = "2000" laser_way = "15"/>
+    <layer process_media = "0" prior = "65" color = "0x00000000" visible = "true" id = "64" name = "65" acc = "0" process = "true" frequency = "0" end_power = "1000" speed = "200000" begin_power = "2000" laser_way = "15"/>
+    <layer process_media = "0" prior = "66" color = "0x00000000" visible = "true" id = "65" name = "66" acc = "0" process = "true" frequency = "0" end_power = "1000" speed = "200000" begin_power = "2000" laser_way = "15"/>
+    <layer process_media = "0" prior = "67" color = "0x00000000" visible = "true" id = "66" name = "67" acc = "0" process = "true" frequency = "0" end_power = "1000" speed = "200000" begin_power = "2000" laser_way = "15"/>
+    <layer process_media = "0" prior = "68" color = "0x00000000" visible = "true" id = "67" name = "68" acc = "0" process = "true" frequency = "0" end_power = "1000" speed = "200000" begin_power = "2000" laser_way = "15"/>
+    <layer process_media = "0" prior = "69" color = "0x00000000" visible = "true" id = "68" name = "69" acc = "0" process = "true" frequency = "0" end_power = "1000" speed = "200000" begin_power = "2000" laser_way = "15"/>
+    <layer process_media = "0" prior = "70" color = "0x00000000" visible = "true" id = "69" name = "70" acc = "0" process = "true" frequency = "0" end_power = "1000" speed = "200000" begin_power = "2000" laser_way = "15"/>
+    <layer process_media = "0" prior = "71" color = "0x00000000" visible = "true" id = "70" name = "71" acc = "0" process = "true" frequency = "0" end_power = "1000" speed = "200000" begin_power = "2000" laser_way = "15"/>
+    <layer process_media = "0" prior = "72" color = "0x00000000" visible = "true" id = "71" name = "72" acc = "0" process = "true" frequency = "0" end_power = "1000" speed = "200000" begin_power = "2000" laser_way = "15"/>
+    <layer process_media = "0" prior = "73" color = "0x00000000" visible = "true" id = "72" name = "73" acc = "0" process = "true" frequency = "0" end_power = "1000" speed = "200000" begin_power = "2000" laser_way = "15"/>
+    <layer process_media = "0" prior = "74" color = "0x00000000" visible = "true" id = "73" name = "74" acc = "0" process = "true" frequency = "0" end_power = "1000" speed = "200000" begin_power = "2000" laser_way = "15"/>
+    <layer process_media = "0" prior = "75" color = "0x00000000" visible = "true" id = "74" name = "75" acc = "0" process = "true" frequency = "0" end_power = "1000" speed = "200000" begin_power = "2000" laser_way = "15"/>
+    <layer process_media = "0" prior = "76" color = "0x00000000" visible = "true" id = "75" name = "76" acc = "0" process = "true" frequency = "0" end_power = "1000" speed = "200000" begin_power = "2000" laser_way = "15"/>
+    <layer process_media = "0" prior = "77" color = "0x00000000" visible = "true" id = "76" name = "77" acc = "0" process = "true" frequency = "0" end_power = "1000" speed = "200000" begin_power = "2000" laser_way = "15"/>
+    <layer process_media = "0" prior = "78" color = "0x00000000" visible = "true" id = "77" name = "78" acc = "0" process = "true" frequency = "0" end_power = "1000" speed = "200000" begin_power = "2000" laser_way = "15"/>
+    <layer process_media = "0" prior = "79" color = "0x00000000" visible = "true" id = "78" name = "79" acc = "0" process = "true" frequency = "0" end_power = "1000" speed = "200000" begin_power = "2000" laser_way = "15"/>
+    <layer process_media = "0" prior = "80" color = "0x00000000" visible = "true" id = "79" name = "80" acc = "0" process = "true" frequency = "0" end_power = "1000" speed = "200000" begin_power = "2000" laser_way = "15"/>
+    <layer process_media = "0" prior = "81" color = "0x00000000" visible = "true" id = "80" name = "81" acc = "0" process = "true" frequency = "0" end_power = "1000" speed = "200000" begin_power = "2000" laser_way = "15"/>
+    <layer process_media = "0" prior = "82" color = "0x00000000" visible = "true" id = "81" name = "82" acc = "0" process = "true" frequency = "0" end_power = "1000" speed = "200000" begin_power = "2000" laser_way = "15"/>
+    <layer process_media = "0" prior = "83" color = "0x00000000" visible = "true" id = "82" name = "83" acc = "0" process = "true" frequency = "0" end_power = "1000" speed = "200000" begin_power = "2000" laser_way = "15"/>
+    <layer process_media = "0" prior = "84" color = "0x00000000" visible = "true" id = "83" name = "84" acc = "0" process = "true" frequency = "0" end_power = "1000" speed = "200000" begin_power = "2000" laser_way = "15"/>
+    <layer process_media = "0" prior = "85" color = "0x00000000" visible = "true" id = "84" name = "85" acc = "0" process = "true" frequency = "0" end_power = "1000" speed = "200000" begin_power = "2000" laser_way = "15"/>
+    <layer process_media = "0" prior = "86" color = "0x00000000" visible = "true" id = "85" name = "86" acc = "0" process = "true" frequency = "0" end_power = "1000" speed = "200000" begin_power = "2000" laser_way = "15"/>
+    <layer process_media = "0" prior = "87" color = "0x00000000" visible = "true" id = "86" name = "87" acc = "0" process = "true" frequency = "0" end_power = "1000" speed = "200000" begin_power = "2000" laser_way = "15"/>
+    <layer process_media = "0" prior = "88" color = "0x00000000" visible = "true" id = "87" name = "88" acc = "0" process = "true" frequency = "0" end_power = "1000" speed = "200000" begin_power = "2000" laser_way = "15"/>
+    <layer process_media = "0" prior = "89" color = "0x00000000" visible = "true" id = "88" name = "89" acc = "0" process = "true" frequency = "0" end_power = "1000" speed = "200000" begin_power = "2000" laser_way = "15"/>
+    <layer process_media = "0" prior = "90" color = "0x00000000" visible = "true" id = "89" name = "90" acc = "0" process = "true" frequency = "0" end_power = "1000" speed = "200000" begin_power = "2000" laser_way = "15"/>
+    <layer process_media = "0" prior = "91" color = "0x00000000" visible = "true" id = "90" name = "91" acc = "0" process = "true" frequency = "0" end_power = "1000" speed = "200000" begin_power = "2000" laser_way = "15"/>
+    <layer process_media = "0" prior = "92" color = "0x00000000" visible = "true" id = "91" name = "92" acc = "0" process = "true" frequency = "0" end_power = "1000" speed = "200000" begin_power = "2000" laser_way = "15"/>
+    <layer process_media = "0" prior = "93" color = "0x00000000" visible = "true" id = "92" name = "93" acc = "0" process = "true" frequency = "0" end_power = "1000" speed = "200000" begin_power = "2000" laser_way = "15"/>
+    <layer process_media = "0" prior = "94" color = "0x00000000" visible = "true" id = "93" name = "94" acc = "0" process = "true" frequency = "0" end_power = "1000" speed = "200000" begin_power = "2000" laser_way = "15"/>
+    <layer process_media = "0" prior = "95" color = "0x00000000" visible = "true" id = "94" name = "95" acc = "0" process = "true" frequency = "0" end_power = "1000" speed = "200000" begin_power = "2000" laser_way = "15"/>
+    <layer process_media = "0" prior = "96" color = "0x00000000" visible = "true" id = "95" name = "96" acc = "0" process = "true" frequency = "0" end_power = "1000" speed = "200000" begin_power = "2000" laser_way = "15"/>
+    <layer process_media = "0" prior = "97" color = "0x00000000" visible = "true" id = "96" name = "97" acc = "0" process = "true" frequency = "0" end_power = "1000" speed = "200000" begin_power = "2000" laser_way = "15"/>
+    <layer process_media = "0" prior = "98" color = "0x00000000" visible = "true" id = "97" name = "98" acc = "0" process = "true" frequency = "0" end_power = "1000" speed = "200000" begin_power = "2000" laser_way = "15"/>
+    <layer process_media = "0" prior = "99" color = "0x00000000" visible = "true" id = "98" name = "99" acc = "0" process = "true" frequency = "0" end_power = "1000" speed = "200000" begin_power = "2000" laser_way = "15"/>
+    <layer process_media = "0" prior = "100" color = "0x00000000" visible = "true" id = "99" name = "100" acc = "0" process = "true" frequency = "0" end_power = "1000" speed = "200000" begin_power = "2000" laser_way = "15"/>
+    <layer process_media = "0" prior = "101" color = "0x00000000" visible = "true" id = "100" name = "101" acc = "0" process = "true" frequency = "0" end_power = "1000" speed = "200000" begin_power = "2000" laser_way = "15"/>
+    <layer process_media = "0" prior = "102" color = "0x00000000" visible = "true" id = "101" name = "102" acc = "0" process = "true" frequency = "0" end_power = "1000" speed = "200000" begin_power = "2000" laser_way = "15"/>
+    <layer process_media = "0" prior = "103" color = "0x00000000" visible = "true" id = "102" name = "103" acc = "0" process = "true" frequency = "0" end_power = "1000" speed = "200000" begin_power = "2000" laser_way = "15"/>
+    <layer process_media = "0" prior = "104" color = "0x00000000" visible = "true" id = "103" name = "104" acc = "0" process = "true" frequency = "0" end_power = "1000" speed = "200000" begin_power = "2000" laser_way = "15"/>
+    <layer process_media = "0" prior = "105" color = "0x00000000" visible = "true" id = "104" name = "105" acc = "0" process = "true" frequency = "0" end_power = "1000" speed = "200000" begin_power = "2000" laser_way = "15"/>
+    <layer process_media = "0" prior = "106" color = "0x00000000" visible = "true" id = "105" name = "106" acc = "0" process = "true" frequency = "0" end_power = "1000" speed = "200000" begin_power = "2000" laser_way = "15"/>
+    <layer process_media = "0" prior = "107" color = "0x00000000" visible = "true" id = "106" name = "107" acc = "0" process = "true" frequency = "0" end_power = "1000" speed = "200000" begin_power = "2000" laser_way = "15"/>
+    <layer process_media = "0" prior = "108" color = "0x00000000" visible = "true" id = "107" name = "108" acc = "0" process = "true" frequency = "0" end_power = "1000" speed = "200000" begin_power = "2000" laser_way = "15"/>
+    <layer process_media = "0" prior = "109" color = "0x00000000" visible = "true" id = "108" name = "109" acc = "0" process = "true" frequency = "0" end_power = "1000" speed = "200000" begin_power = "2000" laser_way = "15"/>
+    <layer process_media = "0" prior = "110" color = "0x00000000" visible = "true" id = "109" name = "110" acc = "0" process = "true" frequency = "0" end_power = "1000" speed = "200000" begin_power = "2000" laser_way = "15"/>
+    <layer process_media = "0" prior = "111" color = "0x00000000" visible = "true" id = "110" name = "111" acc = "0" process = "true" frequency = "0" end_power = "1000" speed = "200000" begin_power = "2000" laser_way = "15"/>
+    <layer process_media = "0" prior = "112" color = "0x00000000" visible = "true" id = "111" name = "112" acc = "0" process = "true" frequency = "0" end_power = "1000" speed = "200000" begin_power = "2000" laser_way = "15"/>
+    <layer process_media = "0" prior = "113" color = "0x00000000" visible = "true" id = "112" name = "113" acc = "0" process = "true" frequency = "0" end_power = "1000" speed = "200000" begin_power = "2000" laser_way = "15"/>
+    <layer process_media = "0" prior = "114" color = "0x00000000" visible = "true" id = "113" name = "114" acc = "0" process = "true" frequency = "0" end_power = "1000" speed = "200000" begin_power = "2000" laser_way = "15"/>
+    <layer process_media = "0" prior = "115" color = "0x00000000" visible = "true" id = "114" name = "115" acc = "0" process = "true" frequency = "0" end_power = "1000" speed = "200000" begin_power = "2000" laser_way = "15"/>
+    <layer process_media = "0" prior = "116" color = "0x00000000" visible = "true" id = "115" name = "116" acc = "0" process = "true" frequency = "0" end_power = "1000" speed = "200000" begin_power = "2000" laser_way = "15"/>
+    <layer process_media = "0" prior = "117" color = "0x00000000" visible = "true" id = "116" name = "117" acc = "0" process = "true" frequency = "0" end_power = "1000" speed = "200000" begin_power = "2000" laser_way = "15"/>
+    <layer process_media = "0" prior = "118" color = "0x00000000" visible = "true" id = "117" name = "118" acc = "0" process = "true" frequency = "0" end_power = "1000" speed = "200000" begin_power = "2000" laser_way = "15"/>
+    <layer process_media = "0" prior = "119" color = "0x00000000" visible = "true" id = "118" name = "119" acc = "0" process = "true" frequency = "0" end_power = "1000" speed = "200000" begin_power = "2000" laser_way = "15"/>
+    <layer process_media = "0" prior = "120" color = "0x00000000" visible = "true" id = "119" name = "120" acc = "0" process = "true" frequency = "0" end_power = "1000" speed = "200000" begin_power = "2000" laser_way = "15"/>
+    <layer process_media = "0" prior = "121" color = "0x00000000" visible = "true" id = "120" name = "121" acc = "0" process = "true" frequency = "0" end_power = "1000" speed = "200000" begin_power = "2000" laser_way = "15"/>
+    <layer process_media = "0" prior = "122" color = "0x00000000" visible = "true" id = "121" name = "122" acc = "0" process = "true" frequency = "0" end_power = "1000" speed = "200000" begin_power = "2000" laser_way = "15"/>
+    <layer process_media = "0" prior = "123" color = "0x00000000" visible = "true" id = "122" name = "123" acc = "0" process = "true" frequency = "0" end_power = "1000" speed = "200000" begin_power = "2000" laser_way = "15"/>
+    <layer process_media = "0" prior = "124" color = "0x00000000" visible = "true" id = "123" name = "124" acc = "0" process = "true" frequency = "0" end_power = "1000" speed = "200000" begin_power = "2000" laser_way = "15"/>
+    <layer process_media = "0" prior = "125" color = "0x00000000" visible = "true" id = "124" name = "125" acc = "0" process = "true" frequency = "0" end_power = "1000" speed = "200000" begin_power = "2000" laser_way = "15"/>
+    <layer process_media = "0" prior = "126" color = "0x00000000" visible = "true" id = "125" name = "126" acc = "0" process = "true" frequency = "0" end_power = "1000" speed = "200000" begin_power = "2000" laser_way = "15"/>
+    <layer process_media = "0" prior = "127" color = "0x00000000" visible = "true" id = "126" name = "127" acc = "0" process = "true" frequency = "0" end_power = "1000" speed = "200000" begin_power = "2000" laser_way = "15"/>
+    <layer process_media = "0" prior = "128" color = "0x00000000" visible = "true" id = "127" name = "128" acc = "0" process = "true" frequency = "0" end_power = "1000" speed = "200000" begin_power = "2000" laser_way = "15"/>
+    <layer process_media = "0" prior = "129" color = "0x00000000" visible = "true" id = "128" name = "129" acc = "0" process = "true" frequency = "0" end_power = "1000" speed = "200000" begin_power = "2000" laser_way = "15"/>
+    <layer process_media = "0" prior = "130" color = "0x00000000" visible = "true" id = "129" name = "130" acc = "0" process = "true" frequency = "0" end_power = "1000" speed = "200000" begin_power = "2000" laser_way = "15"/>
+    <layer process_media = "0" prior = "131" color = "0x00000000" visible = "true" id = "130" name = "131" acc = "0" process = "true" frequency = "0" end_power = "1000" speed = "200000" begin_power = "2000" laser_way = "15"/>
+    <layer process_media = "0" prior = "132" color = "0x00000000" visible = "true" id = "131" name = "132" acc = "0" process = "true" frequency = "0" end_power = "1000" speed = "200000" begin_power = "2000" laser_way = "15"/>
+    <layer process_media = "0" prior = "133" color = "0x00000000" visible = "true" id = "132" name = "133" acc = "0" process = "true" frequency = "0" end_power = "1000" speed = "200000" begin_power = "2000" laser_way = "15"/>
+    <layer process_media = "0" prior = "134" color = "0x00000000" visible = "true" id = "133" name = "134" acc = "0" process = "true" frequency = "0" end_power = "1000" speed = "200000" begin_power = "2000" laser_way = "15"/>
+    <layer process_media = "0" prior = "135" color = "0x00000000" visible = "true" id = "134" name = "135" acc = "0" process = "true" frequency = "0" end_power = "1000" speed = "200000" begin_power = "2000" laser_way = "15"/>
+    <layer process_media = "0" prior = "136" color = "0x00000000" visible = "true" id = "135" name = "136" acc = "0" process = "true" frequency = "0" end_power = "1000" speed = "200000" begin_power = "2000" laser_way = "15"/>
+    <layer process_media = "0" prior = "137" color = "0x00000000" visible = "true" id = "136" name = "137" acc = "0" process = "true" frequency = "0" end_power = "1000" speed = "200000" begin_power = "2000" laser_way = "15"/>
+    <layer process_media = "0" prior = "138" color = "0x00000000" visible = "true" id = "137" name = "138" acc = "0" process = "true" frequency = "0" end_power = "1000" speed = "200000" begin_power = "2000" laser_way = "15"/>
+    <layer process_media = "0" prior = "139" color = "0x00000000" visible = "true" id = "138" name = "139" acc = "0" process = "true" frequency = "0" end_power = "1000" speed = "200000" begin_power = "2000" laser_way = "15"/>
+    <layer process_media = "0" prior = "140" color = "0x00000000" visible = "true" id = "139" name = "140" acc = "0" process = "true" frequency = "0" end_power = "1000" speed = "200000" begin_power = "2000" laser_way = "15"/>
+    <layer process_media = "0" prior = "141" color = "0x00000000" visible = "true" id = "140" name = "141" acc = "0" process = "true" frequency = "0" end_power = "1000" speed = "200000" begin_power = "2000" laser_way = "15"/>
+    <layer process_media = "0" prior = "142" color = "0x00000000" visible = "true" id = "141" name = "142" acc = "0" process = "true" frequency = "0" end_power = "1000" speed = "200000" begin_power = "2000" laser_way = "15"/>
+    <layer process_media = "0" prior = "143" color = "0x00000000" visible = "true" id = "142" name = "143" acc = "0" process = "true" frequency = "0" end_power = "1000" speed = "200000" begin_power = "2000" laser_way = "15"/>
+    <layer process_media = "0" prior = "144" color = "0x00000000" visible = "true" id = "143" name = "144" acc = "0" process = "true" frequency = "0" end_power = "1000" speed = "200000" begin_power = "2000" laser_way = "15"/>
+    <layer process_media = "0" prior = "145" color = "0x00000000" visible = "true" id = "144" name = "145" acc = "0" process = "true" frequency = "0" end_power = "1000" speed = "200000" begin_power = "2000" laser_way = "15"/>
+    <layer process_media = "0" prior = "146" color = "0x00000000" visible = "true" id = "145" name = "146" acc = "0" process = "true" frequency = "0" end_power = "1000" speed = "200000" begin_power = "2000" laser_way = "15"/>
+    <layer process_media = "0" prior = "147" color = "0x00000000" visible = "true" id = "146" name = "147" acc = "0" process = "true" frequency = "0" end_power = "1000" speed = "200000" begin_power = "2000" laser_way = "15"/>
+    <layer process_media = "0" prior = "148" color = "0x00000000" visible = "true" id = "147" name = "148" acc = "0" process = "true" frequency = "0" end_power = "1000" speed = "200000" begin_power = "2000" laser_way = "15"/>
+    <layer process_media = "0" prior = "149" color = "0x00000000" visible = "true" id = "148" name = "149" acc = "0" process = "true" frequency = "0" end_power = "1000" speed = "200000" begin_power = "2000" laser_way = "15"/>
+    <layer process_media = "0" prior = "150" color = "0x00000000" visible = "true" id = "149" name = "150" acc = "0" process = "true" frequency = "0" end_power = "1000" speed = "200000" begin_power = "2000" laser_way = "15"/>
+    <layer process_media = "0" prior = "151" color = "0x00000000" visible = "true" id = "150" name = "151" acc = "0" process = "true" frequency = "0" end_power = "1000" speed = "200000" begin_power = "2000" laser_way = "15"/>
+    <layer process_media = "0" prior = "152" color = "0x00000000" visible = "true" id = "151" name = "152" acc = "0" process = "true" frequency = "0" end_power = "1000" speed = "200000" begin_power = "2000" laser_way = "15"/>
+    <layer process_media = "0" prior = "153" color = "0x00000000" visible = "true" id = "152" name = "153" acc = "0" process = "true" frequency = "0" end_power = "1000" speed = "200000" begin_power = "2000" laser_way = "15"/>
+    <layer process_media = "0" prior = "154" color = "0x00000000" visible = "true" id = "153" name = "154" acc = "0" process = "true" frequency = "0" end_power = "1000" speed = "200000" begin_power = "2000" laser_way = "15"/>
+    <layer process_media = "0" prior = "155" color = "0x00000000" visible = "true" id = "154" name = "155" acc = "0" process = "true" frequency = "0" end_power = "1000" speed = "200000" begin_power = "2000" laser_way = "15"/>
+    <layer process_media = "0" prior = "156" color = "0x00000000" visible = "true" id = "155" name = "156" acc = "0" process = "true" frequency = "0" end_power = "1000" speed = "200000" begin_power = "2000" laser_way = "15"/>
+    <layer process_media = "0" prior = "157" color = "0x00000000" visible = "true" id = "156" name = "157" acc = "0" process = "true" frequency = "0" end_power = "1000" speed = "200000" begin_power = "2000" laser_way = "15"/>
+    <layer process_media = "0" prior = "158" color = "0x00000000" visible = "true" id = "157" name = "158" acc = "0" process = "true" frequency = "0" end_power = "1000" speed = "200000" begin_power = "2000" laser_way = "15"/>
+    <layer process_media = "0" prior = "159" color = "0x00000000" visible = "true" id = "158" name = "159" acc = "0" process = "true" frequency = "0" end_power = "1000" speed = "200000" begin_power = "2000" laser_way = "15"/>
+    <layer process_media = "0" prior = "160" color = "0x00000000" visible = "true" id = "159" name = "160" acc = "0" process = "true" frequency = "0" end_power = "1000" speed = "200000" begin_power = "2000" laser_way = "15"/>
+    <layer process_media = "0" prior = "161" color = "0x00000000" visible = "true" id = "160" name = "161" acc = "0" process = "true" frequency = "0" end_power = "1000" speed = "200000" begin_power = "2000" laser_way = "15"/>
+    <layer process_media = "0" prior = "162" color = "0x00000000" visible = "true" id = "161" name = "162" acc = "0" process = "true" frequency = "0" end_power = "1000" speed = "200000" begin_power = "2000" laser_way = "15"/>
+    <layer process_media = "0" prior = "163" color = "0x00000000" visible = "true" id = "162" name = "163" acc = "0" process = "true" frequency = "0" end_power = "1000" speed = "200000" begin_power = "2000" laser_way = "15"/>
+    <layer process_media = "0" prior = "164" color = "0x00000000" visible = "true" id = "163" name = "164" acc = "0" process = "true" frequency = "0" end_power = "1000" speed = "200000" begin_power = "2000" laser_way = "15"/>
+    <layer process_media = "0" prior = "165" color = "0x00000000" visible = "true" id = "164" name = "165" acc = "0" process = "true" frequency = "0" end_power = "1000" speed = "200000" begin_power = "2000" laser_way = "15"/>
+    <layer process_media = "0" prior = "166" color = "0x00000000" visible = "true" id = "165" name = "166" acc = "0" process = "true" frequency = "0" end_power = "1000" speed = "200000" begin_power = "2000" laser_way = "15"/>
+    <layer process_media = "0" prior = "167" color = "0x00000000" visible = "true" id = "166" name = "167" acc = "0" process = "true" frequency = "0" end_power = "1000" speed = "200000" begin_power = "2000" laser_way = "15"/>
+    <layer process_media = "0" prior = "168" color = "0x00000000" visible = "true" id = "167" name = "168" acc = "0" process = "true" frequency = "0" end_power = "1000" speed = "200000" begin_power = "2000" laser_way = "15"/>
+    <layer process_media = "0" prior = "169" color = "0x00000000" visible = "true" id = "168" name = "169" acc = "0" process = "true" frequency = "0" end_power = "1000" speed = "200000" begin_power = "2000" laser_way = "15"/>
+    <layer process_media = "0" prior = "170" color = "0x00000000" visible = "true" id = "169" name = "170" acc = "0" process = "true" frequency = "0" end_power = "1000" speed = "200000" begin_power = "2000" laser_way = "15"/>
+    <layer process_media = "0" prior = "171" color = "0x00000000" visible = "true" id = "170" name = "171" acc = "0" process = "true" frequency = "0" end_power = "1000" speed = "200000" begin_power = "2000" laser_way = "15"/>
+    <layer process_media = "0" prior = "172" color = "0x00000000" visible = "true" id = "171" name = "172" acc = "0" process = "true" frequency = "0" end_power = "1000" speed = "200000" begin_power = "2000" laser_way = "15"/>
+    <layer process_media = "0" prior = "173" color = "0x00000000" visible = "true" id = "172" name = "173" acc = "0" process = "true" frequency = "0" end_power = "1000" speed = "200000" begin_power = "2000" laser_way = "15"/>
+    <layer process_media = "0" prior = "174" color = "0x00000000" visible = "true" id = "173" name = "174" acc = "0" process = "true" frequency = "0" end_power = "1000" speed = "200000" begin_power = "2000" laser_way = "15"/>
+    <layer process_media = "0" prior = "175" color = "0x00000000" visible = "true" id = "174" name = "175" acc = "0" process = "true" frequency = "0" end_power = "1000" speed = "200000" begin_power = "2000" laser_way = "15"/>
+    <layer process_media = "0" prior = "176" color = "0x00000000" visible = "true" id = "175" name = "176" acc = "0" process = "true" frequency = "0" end_power = "1000" speed = "200000" begin_power = "2000" laser_way = "15"/>
+    <layer process_media = "0" prior = "177" color = "0x00000000" visible = "true" id = "176" name = "177" acc = "0" process = "true" frequency = "0" end_power = "1000" speed = "200000" begin_power = "2000" laser_way = "15"/>
+    <layer process_media = "0" prior = "178" color = "0x00000000" visible = "true" id = "177" name = "178" acc = "0" process = "true" frequency = "0" end_power = "1000" speed = "200000" begin_power = "2000" laser_way = "15"/>
+    <layer process_media = "0" prior = "179" color = "0x00000000" visible = "true" id = "178" name = "179" acc = "0" process = "true" frequency = "0" end_power = "1000" speed = "200000" begin_power = "2000" laser_way = "15"/>
+    <layer process_media = "0" prior = "180" color = "0x00000000" visible = "true" id = "179" name = "180" acc = "0" process = "true" frequency = "0" end_power = "1000" speed = "200000" begin_power = "2000" laser_way = "15"/>
+    <layer process_media = "0" prior = "181" color = "0x00000000" visible = "true" id = "180" name = "181" acc = "0" process = "true" frequency = "0" end_power = "1000" speed = "200000" begin_power = "2000" laser_way = "15"/>
+    <layer process_media = "0" prior = "182" color = "0x00000000" visible = "true" id = "181" name = "182" acc = "0" process = "true" frequency = "0" end_power = "1000" speed = "200000" begin_power = "2000" laser_way = "15"/>
+    <layer process_media = "0" prior = "183" color = "0x00000000" visible = "true" id = "182" name = "183" acc = "0" process = "true" frequency = "0" end_power = "1000" speed = "200000" begin_power = "2000" laser_way = "15"/>
+    <layer process_media = "0" prior = "184" color = "0x00000000" visible = "true" id = "183" name = "184" acc = "0" process = "true" frequency = "0" end_power = "1000" speed = "200000" begin_power = "2000" laser_way = "15"/>
+    <layer process_media = "0" prior = "185" color = "0x00000000" visible = "true" id = "184" name = "185" acc = "0" process = "true" frequency = "0" end_power = "1000" speed = "200000" begin_power = "2000" laser_way = "15"/>
+    <layer process_media = "0" prior = "186" color = "0x00000000" visible = "true" id = "185" name = "186" acc = "0" process = "true" frequency = "0" end_power = "1000" speed = "200000" begin_power = "2000" laser_way = "15"/>
+    <layer process_media = "0" prior = "187" color = "0x00000000" visible = "true" id = "186" name = "187" acc = "0" process = "true" frequency = "0" end_power = "1000" speed = "200000" begin_power = "2000" laser_way = "15"/>
+    <layer process_media = "0" prior = "188" color = "0x00000000" visible = "true" id = "187" name = "188" acc = "0" process = "true" frequency = "0" end_power = "1000" speed = "200000" begin_power = "2000" laser_way = "15"/>
+    <layer process_media = "0" prior = "189" color = "0x00000000" visible = "true" id = "188" name = "189" acc = "0" process = "true" frequency = "0" end_power = "1000" speed = "200000" begin_power = "2000" laser_way = "15"/>
+    <layer process_media = "0" prior = "190" color = "0x00000000" visible = "true" id = "189" name = "190" acc = "0" process = "true" frequency = "0" end_power = "1000" speed = "200000" begin_power = "2000" laser_way = "15"/>
+    <layer process_media = "0" prior = "191" color = "0x00000000" visible = "true" id = "190" name = "191" acc = "0" process = "true" frequency = "0" end_power = "1000" speed = "200000" begin_power = "2000" laser_way = "15"/>
+    <layer process_media = "0" prior = "192" color = "0x00000000" visible = "true" id = "191" name = "192" acc = "0" process = "true" frequency = "0" end_power = "1000" speed = "200000" begin_power = "2000" laser_way = "15"/>
+    <layer process_media = "0" prior = "193" color = "0x00000000" visible = "true" id = "192" name = "193" acc = "0" process = "true" frequency = "0" end_power = "1000" speed = "200000" begin_power = "2000" laser_way = "15"/>
+    <layer process_media = "0" prior = "194" color = "0x00000000" visible = "true" id = "193" name = "194" acc = "0" process = "true" frequency = "0" end_power = "1000" speed = "200000" begin_power = "2000" laser_way = "15"/>
+    <layer process_media = "0" prior = "195" color = "0x00000000" visible = "true" id = "194" name = "195" acc = "0" process = "true" frequency = "0" end_power = "1000" speed = "200000" begin_power = "2000" laser_way = "15"/>
+    <layer process_media = "0" prior = "196" color = "0x00000000" visible = "true" id = "195" name = "196" acc = "0" process = "true" frequency = "0" end_power = "1000" speed = "200000" begin_power = "2000" laser_way = "15"/>
+    <layer process_media = "0" prior = "197" color = "0x00000000" visible = "true" id = "196" name = "197" acc = "0" process = "true" frequency = "0" end_power = "1000" speed = "200000" begin_power = "2000" laser_way = "15"/>
+    <layer process_media = "0" prior = "198" color = "0x00000000" visible = "true" id = "197" name = "198" acc = "0" process = "true" frequency = "0" end_power = "1000" speed = "200000" begin_power = "2000" laser_way = "15"/>
+    <layer process_media = "0" prior = "199" color = "0x00000000" visible = "true" id = "198" name = "199" acc = "0" process = "true" frequency = "0" end_power = "1000" speed = "200000" begin_power = "2000" laser_way = "15"/>
+    <layer process_media = "0" prior = "200" color = "0x00000000" visible = "true" id = "199" name = "200" acc = "0" process = "true" frequency = "0" end_power = "1000" speed = "200000" begin_power = "2000" laser_way = "15"/>
+    <layer process_media = "0" prior = "201" color = "0x00000000" visible = "true" id = "200" name = "201" acc = "0" process = "true" frequency = "0" end_power = "1000" speed = "200000" begin_power = "2000" laser_way = "15"/>
+    <layer process_media = "0" prior = "202" color = "0x00000000" visible = "true" id = "201" name = "202" acc = "0" process = "true" frequency = "0" end_power = "1000" speed = "200000" begin_power = "2000" laser_way = "15"/>
+    <layer process_media = "0" prior = "203" color = "0x00000000" visible = "true" id = "202" name = "203" acc = "0" process = "true" frequency = "0" end_power = "1000" speed = "200000" begin_power = "2000" laser_way = "15"/>
+    <layer process_media = "0" prior = "204" color = "0x00000000" visible = "true" id = "203" name = "204" acc = "0" process = "true" frequency = "0" end_power = "1000" speed = "200000" begin_power = "2000" laser_way = "15"/>
+    <layer process_media = "0" prior = "205" color = "0x00000000" visible = "true" id = "204" name = "205" acc = "0" process = "true" frequency = "0" end_power = "1000" speed = "200000" begin_power = "2000" laser_way = "15"/>
+    <layer process_media = "0" prior = "206" color = "0x00000000" visible = "true" id = "205" name = "206" acc = "0" process = "true" frequency = "0" end_power = "1000" speed = "200000" begin_power = "2000" laser_way = "15"/>
+    <layer process_media = "0" prior = "207" color = "0x00000000" visible = "true" id = "206" name = "207" acc = "0" process = "true" frequency = "0" end_power = "1000" speed = "200000" begin_power = "2000" laser_way = "15"/>
+    <layer process_media = "0" prior = "208" color = "0x00000000" visible = "true" id = "207" name = "208" acc = "0" process = "true" frequency = "0" end_power = "1000" speed = "200000" begin_power = "2000" laser_way = "15"/>
+    <layer process_media = "0" prior = "209" color = "0x00000000" visible = "true" id = "208" name = "209" acc = "0" process = "true" frequency = "0" end_power = "1000" speed = "200000" begin_power = "2000" laser_way = "15"/>
+    <layer process_media = "0" prior = "210" color = "0x00000000" visible = "true" id = "209" name = "210" acc = "0" process = "true" frequency = "0" end_power = "1000" speed = "200000" begin_power = "2000" laser_way = "15"/>
+    <layer process_media = "0" prior = "211" color = "0x00000000" visible = "true" id = "210" name = "211" acc = "0" process = "true" frequency = "0" end_power = "1000" speed = "200000" begin_power = "2000" laser_way = "15"/>
+    <layer process_media = "0" prior = "212" color = "0x00000000" visible = "true" id = "211" name = "212" acc = "0" process = "true" frequency = "0" end_power = "1000" speed = "200000" begin_power = "2000" laser_way = "15"/>
+    <layer process_media = "0" prior = "213" color = "0x00000000" visible = "true" id = "212" name = "213" acc = "0" process = "true" frequency = "0" end_power = "1000" speed = "200000" begin_power = "2000" laser_way = "15"/>
+    <layer process_media = "0" prior = "214" color = "0x00000000" visible = "true" id = "213" name = "214" acc = "0" process = "true" frequency = "0" end_power = "1000" speed = "200000" begin_power = "2000" laser_way = "15"/>
+    <layer process_media = "0" prior = "215" color = "0x00000000" visible = "true" id = "214" name = "215" acc = "0" process = "true" frequency = "0" end_power = "1000" speed = "200000" begin_power = "2000" laser_way = "15"/>
+    <layer process_media = "0" prior = "216" color = "0x00000000" visible = "true" id = "215" name = "216" acc = "0" process = "true" frequency = "0" end_power = "1000" speed = "200000" begin_power = "2000" laser_way = "15"/>
+    <layer process_media = "0" prior = "217" color = "0x00000000" visible = "true" id = "216" name = "217" acc = "0" process = "true" frequency = "0" end_power = "1000" speed = "200000" begin_power = "2000" laser_way = "15"/>
+    <layer process_media = "0" prior = "218" color = "0x00000000" visible = "true" id = "217" name = "218" acc = "0" process = "true" frequency = "0" end_power = "1000" speed = "200000" begin_power = "2000" laser_way = "15"/>
+    <layer process_media = "0" prior = "219" color = "0x00000000" visible = "true" id = "218" name = "219" acc = "0" process = "true" frequency = "0" end_power = "1000" speed = "200000" begin_power = "2000" laser_way = "15"/>
+    <layer process_media = "0" prior = "220" color = "0x00000000" visible = "true" id = "219" name = "220" acc = "0" process = "true" frequency = "0" end_power = "1000" speed = "200000" begin_power = "2000" laser_way = "15"/>
+    <layer process_media = "0" prior = "221" color = "0x00000000" visible = "true" id = "220" name = "221" acc = "0" process = "true" frequency = "0" end_power = "1000" speed = "200000" begin_power = "2000" laser_way = "15"/>
+    <layer process_media = "0" prior = "222" color = "0x00000000" visible = "true" id = "221" name = "222" acc = "0" process = "true" frequency = "0" end_power = "1000" speed = "200000" begin_power = "2000" laser_way = "15"/>
+    <layer process_media = "0" prior = "223" color = "0x00000000" visible = "true" id = "222" name = "223" acc = "0" process = "true" frequency = "0" end_power = "1000" speed = "200000" begin_power = "2000" laser_way = "15"/>
+    <layer process_media = "0" prior = "224" color = "0x00000000" visible = "true" id = "223" name = "224" acc = "0" process = "true" frequency = "0" end_power = "1000" speed = "200000" begin_power = "2000" laser_way = "15"/>
+    <layer process_media = "0" prior = "225" color = "0x00000000" visible = "true" id = "224" name = "225" acc = "0" process = "true" frequency = "0" end_power = "1000" speed = "200000" begin_power = "2000" laser_way = "15"/>
+    <layer process_media = "0" prior = "226" color = "0x00000000" visible = "true" id = "225" name = "226" acc = "0" process = "true" frequency = "0" end_power = "1000" speed = "200000" begin_power = "2000" laser_way = "15"/>
+    <layer process_media = "0" prior = "227" color = "0x00000000" visible = "true" id = "226" name = "227" acc = "0" process = "true" frequency = "0" end_power = "1000" speed = "200000" begin_power = "2000" laser_way = "15"/>
+    <layer process_media = "0" prior = "228" color = "0x00000000" visible = "true" id = "227" name = "228" acc = "0" process = "true" frequency = "0" end_power = "1000" speed = "200000" begin_power = "2000" laser_way = "15"/>
+    <layer process_media = "0" prior = "229" color = "0x00000000" visible = "true" id = "228" name = "229" acc = "0" process = "true" frequency = "0" end_power = "1000" speed = "200000" begin_power = "2000" laser_way = "15"/>
+    <layer process_media = "0" prior = "230" color = "0x00000000" visible = "true" id = "229" name = "230" acc = "0" process = "true" frequency = "0" end_power = "1000" speed = "200000" begin_power = "2000" laser_way = "15"/>
+    <layer process_media = "0" prior = "231" color = "0x00000000" visible = "true" id = "230" name = "231" acc = "0" process = "true" frequency = "0" end_power = "1000" speed = "200000" begin_power = "2000" laser_way = "15"/>
+    <layer process_media = "0" prior = "232" color = "0x00000000" visible = "true" id = "231" name = "232" acc = "0" process = "true" frequency = "0" end_power = "1000" speed = "200000" begin_power = "2000" laser_way = "15"/>
+    <layer process_media = "0" prior = "233" color = "0x00000000" visible = "true" id = "232" name = "233" acc = "0" process = "true" frequency = "0" end_power = "1000" speed = "200000" begin_power = "2000" laser_way = "15"/>
+    <layer process_media = "0" prior = "234" color = "0x00000000" visible = "true" id = "233" name = "234" acc = "0" process = "true" frequency = "0" end_power = "1000" speed = "200000" begin_power = "2000" laser_way = "15"/>
+    <layer process_media = "0" prior = "235" color = "0x00000000" visible = "true" id = "234" name = "235" acc = "0" process = "true" frequency = "0" end_power = "1000" speed = "200000" begin_power = "2000" laser_way = "15"/>
+    <layer process_media = "0" prior = "236" color = "0x00000000" visible = "true" id = "235" name = "236" acc = "0" process = "true" frequency = "0" end_power = "1000" speed = "200000" begin_power = "2000" laser_way = "15"/>
+    <layer process_media = "0" prior = "237" color = "0x00000000" visible = "true" id = "236" name = "237" acc = "0" process = "true" frequency = "0" end_power = "1000" speed = "200000" begin_power = "2000" laser_way = "15"/>
+    <layer process_media = "0" prior = "238" color = "0x00000000" visible = "true" id = "237" name = "238" acc = "0" process = "true" frequency = "0" end_power = "1000" speed = "200000" begin_power = "2000" laser_way = "15"/>
+    <layer process_media = "0" prior = "239" color = "0x00000000" visible = "true" id = "238" name = "239" acc = "0" process = "true" frequency = "0" end_power = "1000" speed = "200000" begin_power = "2000" laser_way = "15"/>
+    <layer process_media = "0" prior = "240" color = "0x00000000" visible = "true" id = "239" name = "240" acc = "0" process = "true" frequency = "0" end_power = "1000" speed = "200000" begin_power = "2000" laser_way = "15"/>
+    <layer process_media = "0" prior = "241" color = "0x00000000" visible = "true" id = "240" name = "241" acc = "0" process = "true" frequency = "0" end_power = "1000" speed = "200000" begin_power = "2000" laser_way = "15"/>
+    <layer process_media = "0" prior = "242" color = "0x00000000" visible = "true" id = "241" name = "242" acc = "0" process = "true" frequency = "0" end_power = "1000" speed = "200000" begin_power = "2000" laser_way = "15"/>
+    <layer process_media = "0" prior = "243" color = "0x00000000" visible = "true" id = "242" name = "243" acc = "0" process = "true" frequency = "0" end_power = "1000" speed = "200000" begin_power = "2000" laser_way = "15"/>
+    <layer process_media = "0" prior = "244" color = "0x00000000" visible = "true" id = "243" name = "244" acc = "0" process = "true" frequency = "0" end_power = "1000" speed = "200000" begin_power = "2000" laser_way = "15"/>
+    <layer process_media = "0" prior = "245" color = "0x00000000" visible = "true" id = "244" name = "245" acc = "0" process = "true" frequency = "0" end_power = "1000" speed = "200000" begin_power = "2000" laser_way = "15"/>
+    <layer process_media = "0" prior = "246" color = "0x00000000" visible = "true" id = "245" name = "246" acc = "0" process = "true" frequency = "0" end_power = "1000" speed = "200000" begin_power = "2000" laser_way = "15"/>
+    <layer process_media = "0" prior = "247" color = "0x00000000" visible = "true" id = "246" name = "247" acc = "0" process = "true" frequency = "0" end_power = "1000" speed = "200000" begin_power = "2000" laser_way = "15"/>
+    <layer process_media = "0" prior = "248" color = "0x00000000" visible = "true" id = "247" name = "248" acc = "0" process = "true" frequency = "0" end_power = "1000" speed = "200000" begin_power = "2000" laser_way = "15"/>
+    <layer process_media = "0" prior = "249" color = "0x00000000" visible = "true" id = "248" name = "249" acc = "0" process = "true" frequency = "0" end_power = "1000" speed = "200000" begin_power = "2000" laser_way = "15"/>
+    <layer process_media = "0" prior = "250" color = "0x00000000" visible = "true" id = "249" name = "250" acc = "0" process = "true" frequency = "0" end_power = "1000" speed = "200000" begin_power = "2000" laser_way = "15"/>
+    <layer process_media = "0" prior = "251" color = "0x00000000" visible = "true" id = "250" name = "251" acc = "0" process = "true" frequency = "0" end_power = "1000" speed = "200000" begin_power = "2000" laser_way = "15"/>
+    <layer process_media = "0" prior = "252" color = "0x00000000" visible = "true" id = "251" name = "252" acc = "0" process = "true" frequency = "0" end_power = "1000" speed = "200000" begin_power = "2000" laser_way = "15"/>
+    <layer process_media = "0" prior = "253" color = "0x00000000" visible = "true" id = "252" name = "253" acc = "0" process = "true" frequency = "0" end_power = "1000" speed = "200000" begin_power = "2000" laser_way = "15"/>
+    <layer process_media = "0" prior = "254" color = "0x00000000" visible = "true" id = "253" name = "254" acc = "0" process = "true" frequency = "0" end_power = "1000" speed = "200000" begin_power = "2000" laser_way = "15"/>
+    <layer process_media = "0" prior = "255" color = "0x00000000" visible = "true" id = "254" name = "255" acc = "0" process = "true" frequency = "0" end_power = "1000" speed = "200000" begin_power = "2000" laser_way = "15"/>
+    <layer process_media = "0" prior = "256" color = "0x00808080" visible = "true" id = "255" name = "256" acc = "0" process = "true" frequency = "0" end_power = "1000" speed = "200000" begin_power = "2000" laser_way = "15"/>
+  </layer_list>
+  <group_list>
+    <group layer_id = "0" process = "true" type = "10">
+      <text Font_Type = "0" content = "↓" align = "0" arc_radius = "0" font = "01000000000000000000000000000000900100000000000103020100400042006100740061006E00670020004E0065007700000000000000000000000000000000000000000000000000000000000000000000000000000000000000" Font_path = "" char_dist = "0" adjust = "-3470298,1270280;-3464771,1270280;-3464771,1263445;-3470298,1263445;" center = "72724,164632" line_interval = "0" array_way = "0"/>
+      <text Font_Type = "0" content = "1" align = "0" arc_radius = "0" font = "0A000000000000000000000000000000900100000000000103020100400042006100740061006E00670020004E0065007700000000000000000000000000000000000000000000000000000000000000000000000000000000000000" Font_path = "" char_dist = "0" adjust = "-272100,117165;-267547,117165;-267547,121386;-272100,121386;" center = "73157,159604" line_interval = "0" array_way = "0"/>
+      <text Font_Type = "0" content = "↓" align = "0" arc_radius = "0" font = "01000000000000000000000000000000900100000000000103020100400042006100740061006E00670020004E0065007700000000000000000000000000000000000000000000000000000000000000000000000000000000000000" Font_path = "" char_dist = "0" adjust = "-3470098,1236920;-3464571,1236920;-3464571,1230085;-3470098,1230085;" center = "72924,131272" line_interval = "0" array_way = "0"/>
+      <text Font_Type = "0" content = "1" align = "0" arc_radius = "0" font = "0A000000000000000000000000000000900100000000000103020100400042006100740061006E00670020004E0065007700000000000000000000000000000000000000000000000000000000000000000000000000000000000000" Font_path = "" char_dist = "0" adjust = "-271900,83805;-267347,83805;-267347,88026;-271900,88026;" center = "73357,126244" line_interval = "0" array_way = "0"/>
+      <text Font_Type = "0" content = "↓" align = "0" arc_radius = "0" font = "01000000000000000000000000000000900100000000000103020100400042006100740061006E00670020004E0065007700000000000000000000000000000000000000000000000000000000000000000000000000000000000000" Font_path = "" char_dist = "0" adjust = "712022,-2588229;712020,-2584011;707981,-2584015;707984,-2588233;" center = "57049,114987" line_interval = "0" array_way = "0"/>
+      <text Font_Type = "0" content = "5" align = "0" arc_radius = "0" font = "0A000000000000000000000000000000900100000000000103020100400042006100740061006E00670020004E0065007700000000000000000000000000000000000000000000000000000000000000000000000000000000000000" Font_path = "" char_dist = "0" adjust = "-177134,215979;-177207,210018;-172492,209927;-172420,215887;" center = "53223,114826" line_interval = "0" array_way = "0"/>
+      <text Font_Type = "0" content = "↓" align = "0" arc_radius = "0" font = "01000000000000000000000000000000900100000000000103020100400042006100740061006E00670020004E0065007700000000000000000000000000000000000000000000000000000000000000000000000000000000000000" Font_path = "" char_dist = "0" adjust = "728022,-2585929;728020,-2581711;723981,-2581715;723984,-2585933;" center = "73049,117287" line_interval = "0" array_way = "0"/>
+      <text Font_Type = "0" content = "4b" align = "0" arc_radius = "0" font = "0A000000000000000000000000000000900100000000000103020100400042006100740061006E00670020004E0065007700000000000000000000000000000000000000000000000000000000000000000000000000000000000000" Font_path = "" char_dist = "0" adjust = "-144197,203864;-144205,199787;-139987,199796;-139979,203873;" center = "69576,117105" line_interval = "0" array_way = "0"/>
+      <text Font_Type = "0" content = "↓" align = "0" arc_radius = "0" font = "01000000000000000000000000000000900100000000000103020100400042006100740061006E00670020004E0065007700000000000000000000000000000000000000000000000000000000000000000000000000000000000000" Font_path = "" char_dist = "0" adjust = "690922,-2585429;690920,-2581211;686881,-2581215;686884,-2585433;" center = "35949,117787" line_interval = "0" array_way = "0"/>
+      <text Font_Type = "0" content = "4" align = "0" arc_radius = "0" font = "0A000000000000000000000000000000900100000000000103020100400042006100740061006E00670020004E0065007700000000000000000000000000000000000000000000000000000000000000000000000000000000000000" Font_path = "" char_dist = "0" adjust = "-200926,227086;-200993,222281;-196341,222212;-196274,227017;" center = "32145,118151" line_interval = "0" array_way = "0"/>
+      <line head_lead_angle = "0.000000" head_lead = "false" tail_lead = "false" line_type = "0" auto_angle = "true" lead_method = "0" points = "23270,113756,10000;23270,115956;23270,113756;23270,115956;23270,113756;" work_method = "0" segment_length = "1000" drill_time = "1000" axis = "x,y,p" tail_lead_length = "0" overlap_length = "0" blank_length = "1000" head_lead_length = "0" tail_lead_angle = "0.000000"/>
+      <text Font_Type = "0" content = "↓" align = "0" arc_radius = "0" font = "01000000000000000000000000000000900100000000000103020100400042006100740061006E00670020004E0065007700000000000000000000000000000000000000000000000000000000000000000000000000000000000000" Font_path = "" char_dist = "0" adjust = "684222,-2588429;684220,-2584211;680181,-2584215;680184,-2588433;" center = "29249,114787" line_interval = "0" array_way = "0"/>
+      <text Font_Type = "0" content = "6" align = "0" arc_radius = "0" font = "0A000000000000000000000000000000900100000000000103020100400042006100740061006E00670020004E0065007700000000000000000000000000000000000000000000000000000000000000000000000000000000000000" Font_path = "" char_dist = "0" adjust = "-235506,150203;-235490,144800;-230162,144815;-230177,150219;" center = "25514,114931" line_interval = "0" array_way = "0"/>
+      <text Font_Type = "0" content = "↓" align = "0" arc_radius = "0" font = "01000000000000000000000000000000900100000000000103020100400042006100740061006E00670020004E0065007700000000000000000000000000000000000000000000000000000000000000000000000000000000000000" Font_path = "" char_dist = "0" adjust = "1278232,-2524289;1275253,-2521086;1279337,-2517514;1282317,-2520717;" center = "29059,106786" line_interval = "0" array_way = "0"/>
+      <text Font_Type = "0" content = "2" align = "0" arc_radius = "0" font = "0A000000000000000000000000000000900100000000000103020100400042006100740061006E00670020004E0065007700000000000000000000000000000000000000000000000000000000000000000000000000000000000000" Font_path = "" char_dist = "0" adjust = "144848,-69448;148137,-66415;145119,-63111;141830,-66144;" center = "28231,109722" line_interval = "0" array_way = "0"/>
+      <text Font_Type = "0" content = "3" align = "0" arc_radius = "0" font = "0A000000000000000000000000000000900100000000000103020100400042006100740061006E00670020004E0065007700000000000000000000000000000000000000000000000000000000000000000000000000000000000000" Font_path = "" char_dist = "0" adjust = "148539,82888;148642,88033;144996,88178;144893,83033;" center = "8191,85945" line_interval = "0" array_way = "0"/>
+      <text Font_Type = "0" content = "↓" align = "0" arc_radius = "0" font = "01000000000000000000000000000000900100000000000103020100400042006100740061006E00670020004E0065007700000000000000000000000000000000000000000000000000000000000000000000000000000000000000" Font_path = "" char_dist = "0" adjust = "-410276,-2155918;-410467,-2152427;-407125,-2152415;-406934,-2155906;" center = "8209,83672" line_interval = "0" array_way = "0"/>
+      <line head_lead_angle = "0.000000" head_lead = "false" tail_lead = "false" line_type = "0" auto_angle = "true" lead_method = "0" points = "34713,78826,10000;34777,78905;34845,78978;34915,79048;34989,79112;35066,79173;35146,79229;35229,79280;35315,79327;35404,79369;35497,79407;35654,79140;35571,79111;35492,79078;35415,79041;35340,79000;35268,78955;35199,78906;35133,78853;35069,78796;35007,78735;34949,78670;34894,78603;34845,78537;34802,78471;34765,78406;34733,78341;34707,78276;34687,78212;34673,78148;34665,78085;34662,78022;34348,78022;34345,78085;34336,78148;34322,78212;34302,78276;34276,78340;34244,78405;34207,78471;34164,78537;34115,78603;34060,78670;34001,78735;33940,78796;33875,78852;33809,78905;33739,78954;33668,78999;33593,79040;33516,79077;33436,79109;33354,79138;33510,79406;33603,79368;33692,79326;33779,79279;33862,79228;33942,79172;34019,79112;34092,79047;34163,78978;34231,78904;34335,78826;34331,82623;34709,82623;34713,78826;" work_method = "0" segment_length = "1000" drill_time = "1000" axis = "x,y,p" tail_lead_length = "0" overlap_length = "0" blank_length = "1000" head_lead_length = "0" tail_lead_angle = "0.000000"/>
+      <text Font_Type = "0" content = "4" align = "0" arc_radius = "0" font = "0A000000000000000000000000000000900100000000000103020100400042006100740061006E00670020004E0065007700000000000000000000000000000000000000000000000000000000000000000000000000000000000000" Font_path = "" char_dist = "0" adjust = "-264905,-255660;-258028,-255660;-258028,-248565;-264905,-248565;" center = "34526,85466" line_interval = "0" array_way = "0"/>
+      <text Font_Type = "0" content = "7" align = "0" arc_radius = "0" font = "0A000000000000000000000000000000900100000000000103020100400042006100740061006E00670020004E0065007700000000000000000000000000000000000000000000000000000000000000000000000000000000000000" Font_path = "" char_dist = "0" adjust = "-12651,-51373;-7024,-51373;-7024,-45390;-12651,-45390;" center = "24778,25956" line_interval = "0" array_way = "0"/>
+      <text Font_Type = "0" content = "↓" align = "0" arc_radius = "0" font = "0A000000000000000000000000000000900100000000000103020100400042006100740061006E00670020004E0065007700000000000000000000000000000000000000000000000000000000000000000000000000000000000000" Font_path = "" char_dist = "0" adjust = "111949,-940723;112320,-929168;101682,-928827;101312,-940382;" center = "50532,30924" line_interval = "0" array_way = "0"/>
+      <text Font_Type = "0" content = "5" align = "0" arc_radius = "0" font = "0A000000000000000000000000000000900100000000000103020100400042006100740061006E00670020004E0065007700000000000000000000000000000000000000000000000000000000000000000000000000000000000000" Font_path = "" char_dist = "0" adjust = "-4311,-29322;67,-29322;67,-25897;-4311,-25897;" center = "15386,78121" line_interval = "0" array_way = "0"/>
+      <text Font_Type = "0" content = "4b" align = "0" arc_radius = "0" font = "0A000000000000000000000000000000900100000000000103020100400042006100740061006E00670020004E0065007700000000000000000000000000000000000000000000000000000000000000000000000000000000000000" Font_path = "" char_dist = "0" adjust = "-137705,-63385;-133314,-63385;-133314,-58840;-137705,-58840;" center = "63573,64587" line_interval = "0" array_way = "0"/>
+      <text Font_Type = "0" content = "↓" align = "0" arc_radius = "0" font = "01000000000000000000000000000000900100000000000103020100400042006100740061006E00670020004E0065007700000000000000000000000000000000000000000000000000000000000000000000000000000000000000" Font_path = "" char_dist = "0" adjust = "-4224707,-867223;-4218016,-867219;-4218022,-861503;-4224713,-861506;" center = "63153,59813" line_interval = "0" array_way = "0"/>
+      <text Font_Type = "0" content = "↓" align = "0" arc_radius = "0" font = "01000000000000000000000000000000900100000000000103020100400042006100740061006E00670020004E0065007700000000000000000000000000000000000000000000000000000000000000000000000000000000000000" Font_path = "" char_dist = "0" adjust = "-1367814,-2332674;-1364843,-2329681;-1367710,-2326837;-1370682,-2329830;" center = "73248,46337" line_interval = "0" array_way = "0"/>
+      <text Font_Type = "0" content = "2" align = "0" arc_radius = "0" font = "0A000000000000000000000000000000900100000000000103020100400042006100740061006E00670020004E0065007700000000000000000000000000000000000000000000000000000000000000000000000000000000000000" Font_path = "" char_dist = "0" adjust = "206047,155350;203618,158212;201153,155392;203582,152530;" center = "71086,44779" line_interval = "0" array_way = "0"/>
+      <text Font_Type = "0" content = "3" align = "0" arc_radius = "0" font = "0A000000000000000000000000000000900100000000000103020100400042006100740061006E00670020004E0065007700000000000000000000000000000000000000000000000000000000000000000000000000000000000000" Font_path = "" char_dist = "0" adjust = "-235491,-132376;-231616,-132376;-231616,-128463;-235491,-128463;" center = "78623,29575" line_interval = "0" array_way = "0"/>
+      <text Font_Type = "0" content = "↓" align = "0" arc_radius = "0" font = "01000000000000000000000000000000900100000000000103020100400042006100740061006E00670020004E0065007700000000000000000000000000000000000000000000000000000000000000000000000000000000000000" Font_path = "" char_dist = "0" adjust = "-2637106,-575358;-2632889,-575439;-2632813,-571401;-2637030,-571320;" center = "78586,25783" line_interval = "0" array_way = "0"/>
+      <line head_lead_angle = "0.000000" head_lead = "false" tail_lead = "false" line_type = "0" auto_angle = "true" lead_method = "0" points = "8747,5024,10000;8752,6424;" work_method = "0" segment_length = "1000" drill_time = "1000" axis = "x,y,p" tail_lead_length = "0" overlap_length = "0" blank_length = "1000" head_lead_length = "0" tail_lead_angle = "0.000000"/>
+      <text Font_Type = "0" content = "7" align = "0" arc_radius = "0" font = "0A000000000000000000000000000000900100000000000103020100400042006100740061006E00670020004E0065007700000000000000000000000000000000000000000000000000000000000000000000000000000000000000" Font_path = "" char_dist = "0" adjust = "65678,-10253;71305,-10253;71305,-4270;65678,-4270;" center = "103108,67076" line_interval = "0" array_way = "0"/>
+      <text Font_Type = "0" content = "8" align = "0" arc_radius = "0" font = "0A000000000000000000000000000000900100000000000103020100400042006100740061006E00670020004E0065007700000000000000000000000000000000000000000000000000000000000000000000000000000000000000" Font_path = "" char_dist = "0" adjust = "-142832,-4921;-136589,-4825;-136723,1244;-142967,1148;" center = "103536,94081" line_interval = "0" array_way = "0"/>
+      <text Font_Type = "0" content = "+" align = "0" arc_radius = "0" font = "01000000000000000000000000000000900100000000000103020100400042006100740061006E00670020004E0065007700000000000000000000000000000000000000000000000000000000000000000000000000000000000000" Font_path = "" char_dist = "0" adjust = "-3959457,-1131489;-3953163,-1131489;-3953163,-1125409;-3959457,-1125409;" center = "17533,178344" line_interval = "0" array_way = "0"/>
+      <text Font_Type = "0" content = "2" align = "0" arc_radius = "0" font = "01000000000000000000000000000000900100000000000103020100400042006100740061006E00670020004E0065007700000000000000000000000000000000000000000000000000000000000000000000000000000000000000" Font_path = "" char_dist = "0" adjust = "-2958448,-204148;-2953763,-204148;-2953763,-200267;-2958448,-200267;" center = "20338,156679" line_interval = "0" array_way = "0"/>
+      <text Font_Type = "0" content = "↓" align = "0" arc_radius = "0" font = "01000000000000000000000000000000900100000000000103020100400042006100740061006E00670020004E0065007700000000000000000000000000000000000000000000000000000000000000000000000000000000000000" Font_path = "" char_dist = "0" adjust = "494043,-1896753;494041,-1893553;491121,-1893556;491122,-1896756;" center = "20450,153963" line_interval = "0" array_way = "0"/>
+      <text Font_Type = "0" content = "1" align = "0" arc_radius = "0" font = "01000000000000000000000000000000900100000000000103020100400042006100740061006E00670020004E0065007700000000000000000000000000000000000000000000000000000000000000000000000000000000000000" Font_path = "" char_dist = "0" adjust = "-3275217,-499469;-3270048,-499469;-3270048,-495588;-3275217,-495588;" center = "20717,142979" line_interval = "0" array_way = "0"/>
+      <text Font_Type = "0" content = "↓" align = "0" arc_radius = "0" font = "01000000000000000000000000000000900100000000000103020100400042006100740061006E00670020004E0065007700000000000000000000000000000000000000000000000000000000000000000000000000000000000000" Font_path = "" char_dist = "0" adjust = "-3522500,-968234;-3516973,-968234;-3516973,-961399;-3522500,-961399;" center = "20525,137413" line_interval = "0" array_way = "0"/>
+      <line head_lead_angle = "0.000000" head_lead = "false" tail_lead = "false" line_type = "3" auto_angle = "true" lead_method = "0" points = "21920,131156,10000;18620,131156;" work_method = "0" segment_length = "200" drill_time = "1000000" axis = "x,y,p" tail_lead_length = "0" overlap_length = "0" blank_length = "200" head_lead_length = "0" tail_lead_angle = "0.000000"/>
+      <text Font_Type = "0" content = "-" align = "0" arc_radius = "0" font = "01000000000000000000000000000000900100000000000103020100400042006100740061006E00670020004E0065007700000000000000000000000000000000000000000000000000000000000000000000000000000000000000" Font_path = "" char_dist = "0" adjust = "-5024378,73618;-5016332,73618;-5016332,78418;-5024378,78418;" center = "17434,124415" line_interval = "0" array_way = "0"/>
+      <line head_lead_angle = "0.000000" head_lead = "false" tail_lead = "false" line_type = "3" auto_angle = "true" lead_method = "0" points = "5720,131056,10000;2420,131056;" work_method = "0" segment_length = "200" drill_time = "1000000" axis = "x,y,p" tail_lead_length = "0" overlap_length = "0" blank_length = "200" head_lead_length = "0" tail_lead_angle = "0.000000"/>
+      <text Font_Type = "0" content = "+" align = "0" arc_radius = "0" font = "01000000000000000000000000000000900100000000000103020100400042006100740061006E00670020004E0065007700000000000000000000000000000000000000000000000000000000000000000000000000000000000000" Font_path = "" char_dist = "0" adjust = "-3934857,-1132089;-3928563,-1132089;-3928563,-1126009;-3934857,-1126009;" center = "42133,177744" line_interval = "0" array_way = "0"/>
+      <text Font_Type = "0" content = "2" align = "0" arc_radius = "0" font = "01000000000000000000000000000000900100000000000103020100400042006100740061006E00670020004E0065007700000000000000000000000000000000000000000000000000000000000000000000000000000000000000" Font_path = "" char_dist = "0" adjust = "-2933848,-204748;-2929163,-204748;-2929163,-200867;-2933848,-200867;" center = "44938,156079" line_interval = "0" array_way = "0"/>
+      <text Font_Type = "0" content = "↓" align = "0" arc_radius = "0" font = "01000000000000000000000000000000900100000000000103020100400042006100740061006E00670020004E0065007700000000000000000000000000000000000000000000000000000000000000000000000000000000000000" Font_path = "" char_dist = "0" adjust = "518643,-1897353;518641,-1894153;515721,-1894156;515722,-1897356;" center = "45050,153363" line_interval = "0" array_way = "0"/>
+      <text Font_Type = "0" content = "1" align = "0" arc_radius = "0" font = "01000000000000000000000000000000900100000000000103020100400042006100740061006E00670020004E0065007700000000000000000000000000000000000000000000000000000000000000000000000000000000000000" Font_path = "" char_dist = "0" adjust = "-3250617,-500069;-3245448,-500069;-3245448,-496188;-3250617,-496188;" center = "45317,142379" line_interval = "0" array_way = "0"/>
+      <text Font_Type = "0" content = "↓" align = "0" arc_radius = "0" font = "01000000000000000000000000000000900100000000000103020100400042006100740061006E00670020004E0065007700000000000000000000000000000000000000000000000000000000000000000000000000000000000000" Font_path = "" char_dist = "0" adjust = "-3497900,-968834;-3492373,-968834;-3492373,-961999;-3497900,-961999;" center = "45125,136813" line_interval = "0" array_way = "0"/>
+      <line head_lead_angle = "0.000000" head_lead = "false" tail_lead = "false" line_type = "3" auto_angle = "true" lead_method = "0" points = "46520,130556,10000;43220,130556;" work_method = "0" segment_length = "200" drill_time = "1000000" axis = "x,y,p" tail_lead_length = "0" overlap_length = "0" blank_length = "200" head_lead_length = "0" tail_lead_angle = "0.000000"/>
+      <text Font_Type = "0" content = "-" align = "0" arc_radius = "0" font = "01000000000000000000000000000000900100000000000103020100400042006100740061006E00670020004E0065007700000000000000000000000000000000000000000000000000000000000000000000000000000000000000" Font_path = "" char_dist = "0" adjust = "-4999778,73018;-4991732,73018;-4991732,77818;-4999778,77818;" center = "42034,123815" line_interval = "0" array_way = "0"/>
+      <line head_lead_angle = "0.000000" head_lead = "false" tail_lead = "false" line_type = "3" auto_angle = "true" lead_method = "0" points = "30320,130456,10000;27020,130456;" work_method = "0" segment_length = "200" drill_time = "1000000" axis = "x,y,p" tail_lead_length = "0" overlap_length = "0" blank_length = "200" head_lead_length = "0" tail_lead_angle = "0.000000"/>
+      <ellipse rotate = "1.570791" radius_a = "250" begin = "0.785397" deasil = "false" radius_b = "250" center = "11715,54487" end = "7.068578"/>
+      <ellipse rotate = "1.570791" radius_a = "250" begin = "0.785397" deasil = "false" radius_b = "250" center = "21815,54487" end = "7.068578"/>
+      <text Font_Type = "0" content = "8" align = "0" arc_radius = "0" font = "0A000000000000000000000000000000900100000000000103020100400042006100740061006E00670020004E0065007700000000000000000000000000000000000000000000000000000000000000000000000000000000000000" Font_path = "" char_dist = "0" adjust = "158764,-235962;158668,-229719;152599,-229853;152695,-236097;" center = "59760,10407" line_interval = "0" array_way = "0"/>
+      <text Font_Type = "0" content = "6" align = "0" arc_radius = "0" font = "0A000000000000000000000000000000900100000000000103020100400042006100740061006E00670020004E0065007700000000000000000000000000000000000000000000000000000000000000000000000000000000000000" Font_path = "" char_dist = "0" adjust = "26525,-103984;26473,-99804;22430,-99858;22482,-104039;" center = "6819,5727" line_interval = "0" array_way = "0"/>
+      <line head_lead_angle = "0.000000" head_lead = "false" layer_id = "1" tail_lead = "false" line_type = "0" auto_angle = "false" lead_method = "0" points = "30578,74142,10000;45418,74142;45418,76882;30578,76882;30578,74142;" work_method = "0" segment_length = "0" drill_time = "0" axis = "x,y,p" tail_lead_length = "0" overlap_length = "0" blank_length = "0" head_lead_length = "0" tail_lead_angle = "0.000000"/>
+      <line head_lead_angle = "0.000000" head_lead = "false" layer_id = "1" tail_lead = "false" line_type = "0" auto_angle = "true" lead_method = "0" points = "28320,72962,10000;47910,72962;" work_method = "0" segment_length = "1000" drill_time = "1000" axis = "x,y,p" tail_lead_length = "0" overlap_length = "0" blank_length = "1000" head_lead_length = "0" tail_lead_angle = "0.000000"/>
+      <line head_lead_angle = "0.000000" head_lead = "false" layer_id = "1" tail_lead = "false" line_type = "0" auto_angle = "true" lead_method = "0" points = "60240,52412,10000;72440,52412;" work_method = "0" segment_length = "1000" drill_time = "1000" axis = "x,y,p" tail_lead_length = "0" overlap_length = "0" blank_length = "1000" head_lead_length = "0" tail_lead_angle = "0.000000"/>
+      <line head_lead_angle = "0.000000" head_lead = "false" layer_id = "1" tail_lead = "false" line_type = "0" auto_angle = "false" lead_method = "0" points = "61089,53742,10000;70929,53742;70929,56482;61089,56482;61089,53742;" work_method = "0" segment_length = "0" drill_time = "0" axis = "x,y,p" tail_lead_length = "0" overlap_length = "0" blank_length = "0" head_lead_length = "0" tail_lead_angle = "0.000000"/>
+      <line head_lead_angle = "0.000000" head_lead = "false" layer_id = "1" tail_lead = "false" line_type = "0" auto_angle = "false" lead_method = "0" points = "89597,67018,10000;89868,68906;89597,70794;88804,72528;87556,73970;85951,75001;84122,75538;82214,75538;80385,75001;78780,73970;77532,72528;76739,70794;76468,68906;76739,67018;77532,65284;78780,63842;80385,62811;82214,62274;84122,62274;85951,62811;87556,63842;88804,65284;89597,67018;" work_method = "0" segment_length = "0" drill_time = "0" axis = "x,y,p" tail_lead_length = "0" overlap_length = "0" blank_length = "0" head_lead_length = "0" tail_lead_angle = "0.000000"/>
+      <line head_lead_angle = "0.000000" head_lead = "false" layer_id = "1" tail_lead = "false" line_type = "0" auto_angle = "false" lead_method = "0" points = "13352,38897,10000;10652,38897;10652,45197;13352,45197;13352,38897;" work_method = "0" segment_length = "0" drill_time = "0" axis = "x,y,p" tail_lead_length = "0" overlap_length = "0" blank_length = "0" head_lead_length = "0" tail_lead_angle = "0.000000"/>
+      <line head_lead_angle = "0.000000" head_lead = "false" layer_id = "1" tail_lead = "false" line_type = "0" auto_angle = "true" lead_method = "0" points = "9410,46362,10000;9410,37912;" work_method = "0" segment_length = "1000" drill_time = "1000" axis = "x,y,p" tail_lead_length = "0" overlap_length = "0" blank_length = "1000" head_lead_length = "0" tail_lead_angle = "0.000000"/>
+      <line head_lead_angle = "0.000000" head_lead = "false" layer_id = "1" tail_lead = "false" line_type = "0" auto_angle = "false" lead_method = "0" points = "23202,38897,10000;20502,38897;20502,45197;23202,45197;23202,38897;" work_method = "0" segment_length = "0" drill_time = "0" axis = "x,y,p" tail_lead_length = "0" overlap_length = "0" blank_length = "0" head_lead_length = "0" tail_lead_angle = "0.000000"/>
+      <line head_lead_angle = "0.000000" head_lead = "false" layer_id = "1" tail_lead = "false" line_type = "0" auto_angle = "true" lead_method = "0" points = "19260,46362,10000;19260,37912;" work_method = "0" segment_length = "1000" drill_time = "1000" axis = "x,y,p" tail_lead_length = "0" overlap_length = "0" blank_length = "1000" head_lead_length = "0" tail_lead_angle = "0.000000"/>
+      <line head_lead_angle = "0.000000" head_lead = "false" layer_id = "1" tail_lead = "false" line_type = "0" auto_angle = "false" lead_method = "0" points = "5214,64737,10000;5467,65307;5467,65931;5214,66501;4750,66918;4157,67111;3536,67046;2996,66734;2630,66229;2500,65619;2630,65009;2996,64504;3536,64192;4157,64127;4750,64320;5214,64737;" work_method = "0" segment_length = "0" drill_time = "0" axis = "x,y,p" tail_lead_length = "0" overlap_length = "0" blank_length = "0" head_lead_length = "0" tail_lead_angle = "0.000000"/>
+      <line head_lead_angle = "0.000000" head_lead = "false" layer_id = "1" tail_lead = "false" line_type = "0" auto_angle = "false" lead_method = "0" points = "55214,25237,10000;55467,25807;55467,26431;55214,27001;54750,27418;54157,27611;53536,27546;52996,27234;52630,26729;52500,26119;52630,25509;52996,25004;53536,24692;54157,24627;54750,24820;55214,25237;" work_method = "0" segment_length = "0" drill_time = "0" axis = "x,y,p" tail_lead_length = "0" overlap_length = "0" blank_length = "0" head_lead_length = "0" tail_lead_angle = "0.000000"/>
+      <line head_lead_angle = "0.000000" head_lead = "false" layer_id = "1" tail_lead = "false" line_type = "0" auto_angle = "false" lead_method = "0" points = "5214,25237,10000;5467,25807;5467,26431;5214,27001;4750,27418;4157,27611;3536,27546;2996,27234;2630,26729;2500,26119;2630,25509;2996,25004;3536,24692;4157,24627;4750,24820;5214,25237;" work_method = "0" segment_length = "0" drill_time = "0" axis = "x,y,p" tail_lead_length = "0" overlap_length = "0" blank_length = "0" head_lead_length = "0" tail_lead_angle = "0.000000"/>
+      <line head_lead_angle = "0.000000" head_lead = "false" layer_id = "1" tail_lead = "false" line_type = "0" auto_angle = "true" lead_method = "0" points = "48030,15399,10000;63263,15399;63263,12129;65874,12129;66001,12237;66335,12442;66697,12592;67079,12683;67470,12714;67861,12683;68243,12592;68605,12442;68939,12237;69238,11982;69493,11683;69698,11349;69848,10987;69939,10605;69970,10214;69939,9823;69848,9441;69698,9079;69493,8745;69238,8446;68939,8191;68605,7986;66335,7986;66001,8191;65702,8446;65447,8745;65242,9079;65221,9129;63263,9129;63263,7669;57263,7669;57263,6669;69719,6669;69848,6357;69939,5975;69970,5584;69939,5193;69848,4811;69698,4449;69493,4115;69238,3816;68939,3561;68605,3356;68243,3206;67861,3115;67470,3084;67079,3115;66697,3206;66335,3356;66001,3561;65874,3669;54263,3669;54263,3419;63263,3419;63263,400;11163,400;11163,3670;8552,3670;8425,3562;8091,3357;7729,3207;7347,3116;6956,3085;6565,3116;6183,3207;5821,3357;5487,3562;5188,3817;4933,4116;4728,4450;4578,4812;4487,5194;4456,5585;4487,5976;4578,6358;4728,6720;4933,7054;5188,7353;5487,7608;5821,7813;6031,7900;5821,7987;5588,8130;8324,8130;8091,7987;7881,7900;8091,7813;8425,7608;8724,7353;8979,7054;9184,6720;9205,6670;11163,6670;11163,8130;17163,8130;17163,9130;4707,9130;4578,9442;4487,9824;4456,10215;4487,10606;4578,10988;4728,11350;4933,11684;5188,11983;5487,12238;5821,12443;6183,12593;6565,12684;6956,12715;7347,12684;7729,12593;8091,12443;8425,12238;8552,12130;20163,12130;20163,12380;11163,12380;11163,15400;38630,15399;" work_method = "0" segment_length = "0" drill_time = "0" axis = "x,y,p" tail_lead_length = "0" overlap_length = "0" blank_length = "0" head_lead_length = "0" tail_lead_angle = "0.000000"/>
+      <line head_lead_angle = "0.000000" head_lead = "false" layer_id = "1" tail_lead = "false" line_type = "0" auto_angle = "true" lead_method = "0" points = "62601,68906,10000;58009,68906;58000,22119;56400,22119;" work_method = "0" segment_length = "0" drill_time = "0" axis = "x,y,p" tail_lead_length = "0" overlap_length = "0" blank_length = "0" head_lead_length = "0" tail_lead_angle = "0.000000"/>
+      <line head_lead_angle = "0.000000" head_lead = "false" layer_id = "1" tail_lead = "false" line_type = "0" auto_angle = "true" lead_method = "0" points = "58009,50560,10000;83168,50560;83168,59458;84161,59458;86104,59871;87918,60679;89525,61846;90854,63322;91847,65042;92460,66931;92668,68906;92460,70881;91847,72770;90854,74490;89525,75966;87918,77133;86104,77941;84161,78354;82175,78354;80232,77941;78418,77133;76811,75966;75482,74490;74489,72770;73876,70881;73668,68906;70401,68906;" work_method = "0" segment_length = "0" drill_time = "0" axis = "x,y,p" tail_lead_length = "0" overlap_length = "0" blank_length = "0" head_lead_length = "0" tail_lead_angle = "0.000000"/>
+      <line head_lead_angle = "0.000000" head_lead = "false" layer_id = "1" tail_lead = "false" line_type = "0" auto_angle = "true" lead_method = "0" points = "80085,133976,10000;80085,121886;75780,121886;49085,121886;46870,122117;" work_method = "0" segment_length = "0" drill_time = "0" axis = "x,y,p" tail_lead_length = "0" overlap_length = "0" blank_length = "0" head_lead_length = "0" tail_lead_angle = "0.000000"/>
+      <line head_lead_angle = "0.000000" head_lead = "false" layer_id = "1" tail_lead = "false" line_type = "0" auto_angle = "false" lead_method = "0" points = "62059,108528,10000;59319,108528;59319,116428;62059,116428;62059,108528;" work_method = "0" segment_length = "0" drill_time = "0" axis = "x,y,p" tail_lead_length = "0" overlap_length = "0" blank_length = "0" head_lead_length = "0" tail_lead_angle = "0.000000"/>
+      <line head_lead_angle = "0.000000" head_lead = "false" layer_id = "1" tail_lead = "false" line_type = "0" auto_angle = "false" lead_method = "0" points = "35059,108528,10000;32319,108528;32319,116428;35059,116428;35059,108528;" work_method = "0" segment_length = "0" drill_time = "0" axis = "x,y,p" tail_lead_length = "0" overlap_length = "0" blank_length = "0" head_lead_length = "0" tail_lead_angle = "0.000000"/>
+      <line head_lead_angle = "0.000000" head_lead = "false" layer_id = "1" tail_lead = "false" line_type = "0" auto_angle = "false" lead_method = "0" points = "9483,100913,10000;1705,108691;2943,109928;2236,110636;4215,112615;13408,103423;11428,101443;10721,102150;9483,100913;" work_method = "0" segment_length = "0" drill_time = "0" axis = "x,y,p" tail_lead_length = "0" overlap_length = "0" blank_length = "0" head_lead_length = "0" tail_lead_angle = "0.000000"/>
+      <line head_lead_angle = "0.000000" head_lead = "false" layer_id = "1" tail_lead = "false" line_type = "0" auto_angle = "true" lead_method = "0" points = "63230,117062,10000;63230,108362;" work_method = "0" segment_length = "1000" drill_time = "1000" axis = "x,y,p" tail_lead_length = "0" overlap_length = "0" blank_length = "1000" head_lead_length = "0" tail_lead_angle = "0.000000"/>
+      <line head_lead_angle = "0.000000" head_lead = "false" layer_id = "1" tail_lead = "false" line_type = "0" auto_angle = "true" lead_method = "0" points = "30,120021,10000;6330,120021;6330,120101;22630,120103;" work_method = "0" segment_length = "0" drill_time = "0" axis = "x,y,p" tail_lead_length = "0" overlap_length = "0" blank_length = "0" head_lead_length = "0" tail_lead_angle = "0.000000"/>
+      <line head_lead_angle = "0.000000" head_lead = "false" layer_id = "1" tail_lead = "false" line_type = "0" auto_angle = "false" lead_method = "0" points = "6310,82487,10000;3570,82487;3570,94237;6310,94237;6310,82487;" work_method = "0" segment_length = "0" drill_time = "0" axis = "x,y,p" tail_lead_length = "0" overlap_length = "0" blank_length = "0" head_lead_length = "0" tail_lead_angle = "0.000000"/>
+      <line head_lead_angle = "0.000000" head_lead = "false" layer_id = "1" tail_lead = "false" line_type = "0" auto_angle = "true" lead_method = "0" points = "2380,95712,10000;2380,81312;" work_method = "0" segment_length = "1000" drill_time = "1000" axis = "x,y,p" tail_lead_length = "0" overlap_length = "0" blank_length = "1000" head_lead_length = "0" tail_lead_angle = "0.000000"/>
+      <line head_lead_angle = "0.000000" head_lead = "false" layer_id = "1" tail_lead = "false" line_type = "0" auto_angle = "true" lead_method = "0" points = "31150,116662,10000;31150,107962;" work_method = "0" segment_length = "1000" drill_time = "1000" axis = "x,y,p" tail_lead_length = "0" overlap_length = "0" blank_length = "1000" head_lead_length = "0" tail_lead_angle = "0.000000"/>
+      <line head_lead_angle = "0.000000" head_lead = "false" layer_id = "1" tail_lead = "false" line_type = "0" auto_angle = "true" lead_method = "0" points = "30,69412,10000;30,21912;" work_method = "0" segment_length = "1000" drill_time = "1000" axis = "x,y,p" tail_lead_length = "0" overlap_length = "0" blank_length = "1000" head_lead_length = "0" tail_lead_angle = "0.000000"/>
+      <line head_lead_angle = "0.000000" head_lead = "false" layer_id = "1" tail_lead = "false" line_type = "0" auto_angle = "true" lead_method = "0" points = "30,120612,10000;30,79812;" work_method = "0" segment_length = "1000" drill_time = "1000" axis = "x,y,p" tail_lead_length = "0" overlap_length = "0" blank_length = "1000" head_lead_length = "0" tail_lead_angle = "0.000000"/>
+      <line head_lead_angle = "0.000000" head_lead = "false" layer_id = "1" tail_lead = "false" line_type = "0" auto_angle = "true" lead_method = "0" points = "22521,120095,10000;35421,120095;" work_method = "0" segment_length = "0" drill_time = "0" axis = "x,y,p" tail_lead_length = "0" overlap_length = "0" blank_length = "0" head_lead_length = "0" tail_lead_angle = "0.000000"/>
+      <line head_lead_angle = "0.000000" head_lead = "false" layer_id = "1" tail_lead = "false" line_type = "0" auto_angle = "true" lead_method = "0" points = "61630,104941,10000;44678,104941;44611,104849;44369,104598;44094,104383;43792,104209;43469,104078;43130,103994;42783,103958;42435,103970;42091,104030;41759,104138;41446,104291;41157,104486;41089,104547;41089,104541;39789,104541;39789,107841;56939,107841;56939,109341;38289,109341;38289,103941;36289,103941;36289,104941;24118,104941;21667,102490;23505,100651;23493,100639;23975,100614;24581,100452;25139,100167;25627,99773;26021,99285;26306,98727;26468,98121;26501,97495;26403,96875;26178,96290;25837,95764;25393,95320;25268,95239;22317,98190;22306,98179;21840,98598;21116,99016;20321,99275;19489,99362;18657,99275;17862,99016;17138,98598;16516,98039;16025,97362;15685,96598;15511,95780;15511,94944;15685,94126;16025,93362;16516,92685;16672,92545;16661,92534;19612,89583;19531,89458;19087,89014;18561,88673;17976,88448;17356,88350;16730,88383;16124,88545;15566,88830;15078,89224;14684,89712;14399,90270;14237,90876;14212,91358;14200,91346;12361,93184;9830,90653;9830,79862;30,79862;" work_method = "0" segment_length = "0" drill_time = "0" axis = "x,y,p" tail_lead_length = "0" overlap_length = "0" blank_length = "0" head_lead_length = "0" tail_lead_angle = "0.000000"/>
+      <line head_lead_angle = "0.000000" head_lead = "false" layer_id = "1" tail_lead = "false" line_type = "0" auto_angle = "true" lead_method = "0" points = "28521,179562,10000;35721,179562;" work_method = "0" segment_length = "0" drill_time = "0" axis = "x,y,p" tail_lead_length = "0" overlap_length = "0" blank_length = "0" head_lead_length = "0" tail_lead_angle = "0.000000"/>
+      <line head_lead_angle = "0.000000" head_lead = "false" layer_id = "1" tail_lead = "false" line_type = "0" auto_angle = "true" lead_method = "0" points = "3921,180162,10000;11121,180162;" work_method = "0" segment_length = "0" drill_time = "0" axis = "x,y,p" tail_lead_length = "0" overlap_length = "0" blank_length = "0" head_lead_length = "0" tail_lead_angle = "0.000000"/>
+      <line head_lead_angle = "0.000000" head_lead = "false" layer_id = "1" tail_lead = "false" line_type = "0" auto_angle = "true" lead_method = "0" points = "10990,180178,10000;12165,180178;12165,179578;12175,179578;12175,180178;22170,180178;22170,176988;21570,176988;21570,176978;22170,176978;22170,135767;23860,135777;23880,132842;22170,132662;22170,130067;23850,129837;23850,126932;22170,126932;22170,125882;21570,125882;21570,125872;22170,125872;22170,122672;21330,122672;" work_method = "0" segment_length = "0" drill_time = "0" axis = "x,y,p" tail_lead_length = "0" overlap_length = "0" blank_length = "0" head_lead_length = "0" tail_lead_angle = "0.000000"/>
+      <line head_lead_angle = "0.000000" head_lead = "false" layer_id = "1" tail_lead = "false" line_type = "0" auto_angle = "true" lead_method = "0" points = "13850,120112,10000;13930,122672;12175,122672;12175,123272;12165,123272;12165,122672;2170,122672;2170,125872;2770,125872;2770,125882;2170,125882;2170,126932;670,126932;370,129757;2180,129997;2170,132752;330,132952;670,135767;2170,135767;2170,157132;8220,157132;8510,154217;5670,153957;5670,151527;8470,151287;8220,148332;5670,148332;5670,126172;18670,126172;18670,148332;15480,148332;15490,151267;18670,151527;18680,153977;15480,154177;15480,157122;18670,157132;18670,176678;5670,176678;5670,174928;2170,174928;2170,176978;2770,176978;2770,176988;2170,176988;2170,180178;3870,180178;3990,180178;" work_method = "0" segment_length = "0" drill_time = "0" axis = "x,y,p" tail_lead_length = "0" overlap_length = "0" blank_length = "0" head_lead_length = "0" tail_lead_angle = "0.000000"/>
+      <line head_lead_angle = "0.000000" head_lead = "false" layer_id = "1" tail_lead = "false" line_type = "0" auto_angle = "true" lead_method = "0" points = "35690,179578,10000;36865,179578;36865,178978;36875,178978;36875,179578;46870,179578;46870,176388;46270,176388;46270,176378;46870,176378;46870,135167;48560,135177;48580,132222;46870,132042;46870,129487;48550,129257;48550,126332;46870,126332;46870,125282;46270,125282;46270,125272;46870,125272;46870,122072;46130,122072;" work_method = "0" segment_length = "0" drill_time = "0" axis = "x,y,p" tail_lead_length = "0" overlap_length = "0" blank_length = "0" head_lead_length = "0" tail_lead_angle = "0.000000"/>
+      <line head_lead_angle = "0.000000" head_lead = "false" layer_id = "1" tail_lead = "false" line_type = "0" auto_angle = "true" lead_method = "0" points = "39530,122072,10000;36875,122072;36875,122672;36865,122672;36865,122072;26870,122072;26870,125272;27470,125272;27470,125282;26870,125282;26870,126332;25370,126332;25070,129237;26880,129477;26870,132052;25030,132272;25370,135167;26870,135167;26870,156532;32920,156532;33210,153612;30370,153377;30370,150887;33170,150672;32920,147732;30370,147732;30370,125572;43370,125572;43370,147732;40180,147732;40190,150667;43370,150862;43370,153422;40180,153577;40180,156522;43370,156532;43370,176078;30370,176078;30370,174328;26870,174328;26870,176378;27470,176378;27470,176388;26870,176388;26870,179578;28570,179578;28690,179578;" work_method = "0" segment_length = "0" drill_time = "0" axis = "x,y,p" tail_lead_length = "0" overlap_length = "0" blank_length = "0" head_lead_length = "0" tail_lead_angle = "0.000000"/>
+      <line head_lead_angle = "0.000000" head_lead = "false" layer_id = "1" tail_lead = "false" line_type = "0" auto_angle = "true" lead_method = "0" points = "26930,122062,10000;26870,122072;22170,122672;" work_method = "0" segment_length = "1000" drill_time = "1000" axis = "x,y,p" tail_lead_length = "0" overlap_length = "0" blank_length = "1000" head_lead_length = "0" tail_lead_angle = "0.000000"/>
+      <line head_lead_angle = "0.000000" head_lead = "false" layer_id = "1" tail_lead = "false" line_type = "0" auto_angle = "true" lead_method = "0" points = "36520,58985,10000;38124,58985;" work_method = "0" segment_length = "0" drill_time = "0" axis = "x,y,p" tail_lead_length = "0" overlap_length = "0" blank_length = "0" head_lead_length = "0" tail_lead_angle = "0.000000"/>
+      <line head_lead_angle = "0.000000" head_lead = "false" layer_id = "1" tail_lead = "false" line_type = "0" auto_angle = "true" lead_method = "0" points = "18601,35397,10000;16952,35397;" work_method = "0" segment_length = "0" drill_time = "0" axis = "x,y,p" tail_lead_length = "0" overlap_length = "0" blank_length = "0" head_lead_length = "0" tail_lead_angle = "0.000000"/>
+      <line head_lead_angle = "0.000000" head_lead = "false" layer_id = "1" tail_lead = "false" line_type = "0" auto_angle = "true" lead_method = "0" points = "16952,58997,10000;18673,58997;18673,58321;19223,57087;20227,56182;21512,55765;22856,55906;24027,56582;24821,57675;25102,58997;26752,58997;26752,35397;25301,35397;" work_method = "0" segment_length = "0" drill_time = "0" axis = "x,y,p" tail_lead_length = "0" overlap_length = "0" blank_length = "0" head_lead_length = "0" tail_lead_angle = "0.000000"/>
+      <line head_lead_angle = "0.000000" head_lead = "false" layer_id = "1" tail_lead = "false" line_type = "0" auto_angle = "true" lead_method = "0" points = "8751,35397,10000;7102,35397;" work_method = "0" segment_length = "0" drill_time = "0" axis = "x,y,p" tail_lead_length = "0" overlap_length = "0" blank_length = "0" head_lead_length = "0" tail_lead_angle = "0.000000"/>
+      <line head_lead_angle = "0.000000" head_lead = "false" layer_id = "1" tail_lead = "false" line_type = "0" auto_angle = "true" lead_method = "0" points = "7102,58997,10000;8823,58997;8823,58321;9373,57087;10377,56182;11662,55765;13006,55906;14177,56582;14971,57675;15252,58997;16902,58997;16902,35397;15451,35397;" work_method = "0" segment_length = "0" drill_time = "0" axis = "x,y,p" tail_lead_length = "0" overlap_length = "0" blank_length = "0" head_lead_length = "0" tail_lead_angle = "0.000000"/>
+      <line head_lead_angle = "0.000000" head_lead = "false" layer_id = "1" tail_lead = "false" line_type = "0" auto_angle = "true" lead_method = "0" points = "26740,58995,10000;28344,58995;" work_method = "0" segment_length = "0" drill_time = "0" axis = "x,y,p" tail_lead_length = "0" overlap_length = "0" blank_length = "0" head_lead_length = "0" tail_lead_angle = "0.000000"/>
+      <line head_lead_angle = "0.000000" head_lead = "false" layer_id = "1" tail_lead = "false" line_type = "0" auto_angle = "false" lead_method = "0" points = "55214,65797,10000;55467,66367;55467,66991;55214,67561;54750,67978;54157,68171;53536,68106;52996,67794;52630,67289;52500,66679;52630,66069;52996,65564;53536,65252;54157,65187;54750,65380;55214,65797;" work_method = "0" segment_length = "0" drill_time = "0" axis = "x,y,p" tail_lead_length = "0" overlap_length = "0" blank_length = "0" head_lead_length = "0" tail_lead_angle = "0.000000"/>
+      <line head_lead_angle = "0.000000" head_lead = "false" layer_id = "1" tail_lead = "false" line_type = "0" auto_angle = "false" lead_method = "0" points = "62600,134560,10000;52600,134560;52600,137871;52816,137775;53184,137697;53560,137697;53928,137775;54272,137928;54576,138149;54828,138429;55016,138755;55133,139113;55172,139487;55133,139861;55016,140219;54828,140545;54810,140565;54810,143160;74390,143160;74390,140565;74372,140545;74184,140219;74067,139861;74028,139487;74067,139113;74184,138755;74372,138429;74624,138149;74928,137928;75272,137775;75640,137697;76016,137697;76384,137775;76600,137871;76600,134560;66600,134560;66600,133894;66969,133579;67310,133179;67585,132731;67786,132245;67909,131734;67950,131210;67909,130686;67786,130175;67585,129689;67310,129241;66969,128841;66569,128500;66121,128225;65635,128024;65124,127901;64600,127860;64076,127901;63565,128024;63079,128225;62631,128500;62231,128841;61890,129241;61615,129689;61414,130175;61291,130686;61250,131210;61291,131734;61414,132245;61615,132731;61890,133179;62231,133579;62600,133894;62600,134560;" work_method = "0" segment_length = "0" drill_time = "0" axis = "x,y,p" tail_lead_length = "0" overlap_length = "0" blank_length = "0" head_lead_length = "0" tail_lead_angle = "0.000000"/>
+      <line head_lead_angle = "0.000000" head_lead = "false" layer_id = "1" tail_lead = "false" line_type = "0" auto_angle = "false" lead_method = "0" points = "61291,148286,10000;61250,148810;61291,149334;61414,149845;61615,150331;61890,150779;62231,151179;62631,151520;63079,151795;63565,151996;64076,152119;64600,152160;65124,152119;65635,151996;66121,151795;66569,151520;66969,151179;67310,150779;67585,150331;67786,149845;67909,149334;67950,148810;67909,148286;67786,147775;67585,147289;67310,146841;66969,146441;66569,146100;66121,145825;65635,145624;65124,145501;64600,145460;64076,145501;63565,145624;63079,145825;62631,146100;62231,146441;61890,146841;61615,147289;61414,147775;61291,148286;" work_method = "0" segment_length = "0" drill_time = "0" axis = "x,y,p" tail_lead_length = "0" overlap_length = "0" blank_length = "0" head_lead_length = "0" tail_lead_angle = "0.000000"/>
+      <line head_lead_angle = "0.000000" head_lead = "false" layer_id = "1" tail_lead = "false" line_type = "0" auto_angle = "true" lead_method = "0" points = "80100,124360,10000;69600,124360;69600,123360;70766,123360;71600,122660;71600,121860;" work_method = "0" segment_length = "0" drill_time = "0" axis = "x,y,p" tail_lead_length = "0" overlap_length = "0" blank_length = "0" head_lead_length = "0" tail_lead_angle = "0.000000"/>
+      <line head_lead_angle = "0.000000" head_lead = "false" layer_id = "1" tail_lead = "false" line_type = "0" auto_angle = "true" lead_method = "0" points = "57600,121860,10000;57600,122660;58434,123360;59600,123360;59600,124360;49100,124360;49100,154960;80100,154960;80085,142996;" work_method = "0" segment_length = "0" drill_time = "0" axis = "x,y,p" tail_lead_length = "0" overlap_length = "0" blank_length = "0" head_lead_length = "0" tail_lead_angle = "0.000000"/>
+      <line head_lead_angle = "0.000000" head_lead = "false" layer_id = "1" tail_lead = "false" line_type = "0" auto_angle = "false" lead_method = "0" points = "62000,167658,10000;52000,167658;52000,170969;52216,170873;52584,170795;52960,170795;53328,170873;53672,171026;53976,171247;54228,171527;54416,171853;54533,172211;54572,172585;54533,172959;54416,173317;54228,173643;54210,173663;54210,176258;73790,176258;73790,173663;73772,173643;73584,173317;73467,172959;73428,172585;73467,172211;73584,171853;73772,171527;74024,171247;74328,171026;74672,170873;75040,170795;75416,170795;75784,170873;76000,170969;76000,167658;66000,167658;66000,166992;66369,166677;66710,166277;66985,165829;67186,165343;67309,164832;67350,164308;67309,163784;67186,163273;66985,162787;66710,162339;66369,161939;65969,161598;65521,161323;65035,161122;64524,160999;64000,160958;63476,160999;62965,161122;62479,161323;62031,161598;61631,161939;61290,162339;61015,162787;60814,163273;60691,163784;60650,164308;60691,164832;60814,165343;61015,165829;61290,166277;61631,166677;62000,166992;62000,167658;" work_method = "0" segment_length = "0" drill_time = "0" axis = "x,y,p" tail_lead_length = "0" overlap_length = "0" blank_length = "0" head_lead_length = "0" tail_lead_angle = "0.000000"/>
+      <line head_lead_angle = "0.000000" head_lead = "false" layer_id = "1" tail_lead = "false" line_type = "0" auto_angle = "false" lead_method = "0" points = "60691,181384,10000;60650,181908;60691,182432;60814,182943;61015,183429;61290,183877;61631,184277;62031,184618;62479,184893;62965,185094;63476,185217;64000,185258;64524,185217;65035,185094;65521,184893;65969,184618;66369,184277;66710,183877;66985,183429;67186,182943;67309,182432;67350,181908;67309,181384;67186,180873;66985,180387;66710,179939;66369,179539;65969,179198;65521,178923;65035,178722;64524,178599;64000,178558;63476,178599;62965,178722;62479,178923;62031,179198;61631,179539;61290,179939;61015,180387;60814,180873;60691,181384;" work_method = "0" segment_length = "0" drill_time = "0" axis = "x,y,p" tail_lead_length = "0" overlap_length = "0" blank_length = "0" head_lead_length = "0" tail_lead_angle = "0.000000"/>
+      <line head_lead_angle = "0.000000" head_lead = "false" layer_id = "1" tail_lead = "false" line_type = "0" auto_angle = "true" lead_method = "0" points = "90630,171632,10000;79500,171580;" work_method = "0" segment_length = "1000" drill_time = "1000" axis = "x,y,p" tail_lead_length = "0" overlap_length = "0" blank_length = "1000" head_lead_length = "0" tail_lead_angle = "0.000000"/>
+      <line head_lead_angle = "0.000000" head_lead = "false" layer_id = "1" tail_lead = "false" line_type = "0" auto_angle = "true" lead_method = "0" points = "57000,154958,10000;57000,155758;57834,156458;59000,156458;59000,157458;48500,157458;48500,188058;79500,188058;79500,168100;" work_method = "0" segment_length = "0" drill_time = "0" axis = "x,y,p" tail_lead_length = "0" overlap_length = "0" blank_length = "0" head_lead_length = "0" tail_lead_angle = "0.000000"/>
+      <line head_lead_angle = "0.000000" head_lead = "false" layer_id = "1" tail_lead = "false" line_type = "0" auto_angle = "true" lead_method = "0" points = "79500,159300,10000;79500,157458;69000,157458;69000,156458;70166,156458;71000,155758;71000,154958;" work_method = "0" segment_length = "0" drill_time = "0" axis = "x,y,p" tail_lead_length = "0" overlap_length = "0" blank_length = "0" head_lead_length = "0" tail_lead_angle = "0.000000"/>
+      <line head_lead_angle = "0.000000" head_lead = "false" layer_id = "1" tail_lead = "false" line_type = "0" auto_angle = "true" lead_method = "0" points = "98190,159632,10000;98130,171632;90630,171632;90630,179632;96330,179632;96330,182432;90630,182432;90630,186432;97630,186432;" work_method = "0" segment_length = "0" drill_time = "0" axis = "x,y,p" tail_lead_length = "0" overlap_length = "0" blank_length = "0" head_lead_length = "0" tail_lead_angle = "0.000000"/>
+      <line head_lead_angle = "0.000000" head_lead = "false" layer_id = "1" tail_lead = "false" line_type = "0" auto_angle = "true" lead_method = "0" points = "97221,186432,10000;115221,186432;" work_method = "0" segment_length = "0" drill_time = "0" axis = "x,y,p" tail_lead_length = "0" overlap_length = "0" blank_length = "0" head_lead_length = "0" tail_lead_angle = "0.000000"/>
+      <line head_lead_angle = "0.000000" head_lead = "false" layer_id = "1" tail_lead = "false" line_type = "0" auto_angle = "false" lead_method = "0" points = "109255,90402,10000;109255,87662;101305,87662;101305,90402;109255,90402;" work_method = "0" segment_length = "0" drill_time = "0" axis = "x,y,p" tail_lead_length = "0" overlap_length = "0" blank_length = "0" head_lead_length = "0" tail_lead_angle = "0.000000"/>
+      <line head_lead_angle = "0.000000" head_lead = "false" layer_id = "1" tail_lead = "false" line_type = "0" auto_angle = "false" lead_method = "0" points = "109230,63402,10000;109230,60662;101330,60662;101330,63402;109230,63402;" work_method = "0" segment_length = "0" drill_time = "0" axis = "x,y,p" tail_lead_length = "0" overlap_length = "0" blank_length = "0" head_lead_length = "0" tail_lead_angle = "0.000000"/>
+      <line head_lead_angle = "0.000000" head_lead = "false" layer_id = "1" tail_lead = "false" line_type = "0" auto_angle = "false" lead_method = "0" points = "105948,22930,10000;105330,22832;104712,22930;104154,23214;103712,23656;103428,24214;103330,24832;103428,25450;103712,26008;104154,26450;104712,26734;105330,26832;105948,26734;106506,26450;106948,26008;107232,25450;107330,24832;107232,24214;106948,23656;106506,23214;105948,22930;" work_method = "0" segment_length = "0" drill_time = "0" axis = "x,y,p" tail_lead_length = "0" overlap_length = "0" blank_length = "0" head_lead_length = "0" tail_lead_angle = "0.000000"/>
+      <line head_lead_angle = "0.000000" head_lead = "false" layer_id = "1" tail_lead = "false" line_type = "0" auto_angle = "false" lead_method = "0" points = "108330,19332,10000;108330,16532;102630,16532;102630,19332;108330,19332;" work_method = "0" segment_length = "0" drill_time = "0" axis = "x,y,p" tail_lead_length = "0" overlap_length = "0" blank_length = "0" head_lead_length = "0" tail_lead_angle = "0.000000"/>
+      <line head_lead_angle = "0.000000" head_lead = "false" layer_id = "1" tail_lead = "false" line_type = "0" auto_angle = "true" lead_method = "0" points = "109546,91692,10000;101096,91692;" work_method = "0" segment_length = "1000" drill_time = "1000" axis = "x,y,p" tail_lead_length = "0" overlap_length = "0" blank_length = "1000" head_lead_length = "0" tail_lead_angle = "0.000000"/>
+      <line head_lead_angle = "0.000000" head_lead = "false" layer_id = "1" tail_lead = "false" line_type = "0" auto_angle = "true" lead_method = "0" points = "109446,64592,10000;100996,64592;" work_method = "0" segment_length = "1000" drill_time = "1000" axis = "x,y,p" tail_lead_length = "0" overlap_length = "0" blank_length = "1000" head_lead_length = "0" tail_lead_angle = "0.000000"/>
+      <line head_lead_angle = "0.000000" head_lead = "false" layer_id = "1" tail_lead = "false" line_type = "0" auto_angle = "false" lead_method = "0" points = "105948,172530,10000;105330,172432;104712,172530;104154,172814;103712,173256;103428,173814;103330,174432;103428,175050;103712,175608;104154,176050;104712,176334;105330,176432;105948,176334;106506,176050;106948,175608;107232,175050;107330,174432;107232,173814;106948,173256;106506,172814;105948,172530;" work_method = "0" segment_length = "0" drill_time = "0" axis = "x,y,p" tail_lead_length = "0" overlap_length = "0" blank_length = "0" head_lead_length = "0" tail_lead_angle = "0.000000"/>
+      <line head_lead_angle = "0.000000" head_lead = "false" layer_id = "1" tail_lead = "false" line_type = "0" auto_angle = "false" lead_method = "0" points = "108330,182432,10000;108330,179632;102630,179632;102630,182432;108330,182432;" work_method = "0" segment_length = "0" drill_time = "0" axis = "x,y,p" tail_lead_length = "0" overlap_length = "0" blank_length = "0" head_lead_length = "0" tail_lead_angle = "0.000000"/>
+      <line head_lead_angle = "0.000000" head_lead = "false" layer_id = "1" tail_lead = "false" line_type = "0" auto_angle = "true" lead_method = "0" points = "58012,68905,10000;58011,69111;25500,69119;25500,74219;22230,74219;22230,76830;22338,76957;22543,77291;22693,77653;22784,78035;22815,78426;22784,78817;22693,79199;22543,79561;22338,79895;22083,80194;21784,80449;21450,80654;21088,80804;20706,80895;20315,80926;19924,80895;19542,80804;19180,80654;18846,80449;18547,80194;18292,79895;18087,79561;18000,79351;18000,77501;18087,77291;18292,76957;18547,76658;18846,76403;19180,76198;19230,76177;19230,74219;17770,74219;17770,68219;16770,68219;16770,80675;16458,80804;16076,80895;15685,80926;15294,80895;14912,80804;14550,80654;14216,80449;13917,80194;13662,79895;13457,79561;13307,79199;13216,78817;13185,78426;13216,78035;13307,77653;13457,77291;13662,76957;13770,76830;13770,65219;13520,65219;13520,74219;10500,74219;10500,69119;0,69119;" work_method = "0" segment_length = "0" drill_time = "0" axis = "x,y,p" tail_lead_length = "0" overlap_length = "0" blank_length = "0" head_lead_length = "0" tail_lead_angle = "0.000000"/>
+      <line head_lead_angle = "0.000000" head_lead = "false" layer_id = "1" tail_lead = "false" line_type = "0" auto_angle = "true" lead_method = "0" points = "63260,15360,10000;64260,16460;" work_method = "0" segment_length = "1000" drill_time = "1000" axis = "x,y,p" tail_lead_length = "0" overlap_length = "0" blank_length = "1000" head_lead_length = "0" tail_lead_angle = "0.000000"/>
+      <line head_lead_angle = "0.000000" head_lead = "false" layer_id = "1" tail_lead = "false" line_type = "0" auto_angle = "true" lead_method = "0" points = "112530,32600,10000;112530,27632;120330,27632;120330,19332;114630,19332;114630,16532;120330,16532;120330,12832;90630,12832;90630,16532;96330,16532;96330,19332;90630,19332;90630,27632;98130,27632;98130,91900;" work_method = "0" segment_length = "0" drill_time = "0" axis = "x,y,p" tail_lead_length = "0" overlap_length = "0" blank_length = "0" head_lead_length = "0" tail_lead_angle = "0.000000"/>
+      <line head_lead_angle = "0.000000" head_lead = "false" layer_id = "1" tail_lead = "false" line_type = "0" auto_angle = "true" lead_method = "0" points = "73100,92009,10000;76370,92009;76370,94620;76262,94747;76057,95081;75907,95443;75816,95825;75785,96216;75816,96607;75907,96989;76057,97351;76262,97685;76517,97984;76816,98239;77150,98444;77512,98594;77894,98685;78285,98716;78676,98685;79058,98594;79420,98444;79754,98239;80053,97984;80308,97685;80513,97351;80600,97141;80707,96571;80600,95291;80513,95081;80308,94747;80053,94448;79754,94193;79420,93988;79370,93967;79370,92009;80830,92009;80830,87369;81830,87369;81830,98465;82142,98594;82524,98685;82915,98716;83306,98685;83688,98594;84050,98444;84384,98239;84683,97984;84938,97685;85143,97351;85293,96989;85384,96607;85415,96216;85384,95825;85293,95443;85143,95081;84938,94747;84830,94620;84830,84269;" work_method = "0" segment_length = "1000" drill_time = "1000" axis = "x,y,p" tail_lead_length = "0" overlap_length = "0" blank_length = "1000" head_lead_length = "0" tail_lead_angle = "0.000000"/>
+      <line head_lead_angle = "0.000000" head_lead = "false" layer_id = "1" tail_lead = "false" line_type = "0" auto_angle = "true" lead_method = "0" points = "84835,92009,10000;88100,92009;" work_method = "0" segment_length = "1000" drill_time = "1000" axis = "x,y,p" tail_lead_length = "0" overlap_length = "0" blank_length = "1000" head_lead_length = "0" tail_lead_angle = "0.000000"/>
+      <line head_lead_angle = "0.000000" head_lead = "false" layer_id = "1" tail_lead = "false" line_type = "0" auto_angle = "true" lead_method = "0" points = "88120,81952,10000;73120,81952;73120,84352;" work_method = "0" segment_length = "1000" drill_time = "1000" axis = "x,y,p" tail_lead_length = "0" overlap_length = "0" blank_length = "1000" head_lead_length = "0" tail_lead_angle = "0.000000"/>
+      <line head_lead_angle = "0.000000" head_lead = "false" layer_id = "1" tail_lead = "false" line_type = "0" auto_angle = "true" lead_method = "0" points = "7102,58997,10000;7102,35397;" work_method = "0" segment_length = "1000" drill_time = "1000" axis = "x,y,p" tail_lead_length = "0" overlap_length = "0" blank_length = "1000" head_lead_length = "0" tail_lead_angle = "0.000000"/>
+      <line head_lead_angle = "0.000000" head_lead = "false" layer_id = "1" tail_lead = "false" line_type = "0" auto_angle = "true" lead_method = "0" points = "55157,78240,10000;55157,81268;54163,81268;52232,81744;50470,82668;48982,83987;47852,85624;47147,87484;46907,89458;47147,91432;47852,93292;48982,94929;50470,96248;52232,97172;54163,97648;56151,97648;58082,97172;59844,96248;61332,94929;62462,93292;63167,91432;63407,89458;63167,87484;62853,86657;67547,84948;68117,86703;68407,89458;68117,92213;67261,94847;65876,97246;64023,99305;61782,100933;59251,102059;56542,102635;53772,102635;51063,102059;48532,100933;46291,99305;44438,97246;43053,94847;42197,92213;41907,89458;40151,89458;30251,89458;25498,89458;25498,74212;" work_method = "0" segment_length = "0" drill_time = "0" axis = "x,y,p" tail_lead_length = "0" overlap_length = "0" blank_length = "0" head_lead_length = "0" tail_lead_angle = "0.000000"/>
+      <line head_lead_angle = "0.000000" head_lead = "false" layer_id = "1" tail_lead = "false" line_type = "0" auto_angle = "true" lead_method = "0" points = "55157,69112,10000;55157,70690;" work_method = "0" segment_length = "0" drill_time = "0" axis = "x,y,p" tail_lead_length = "0" overlap_length = "0" blank_length = "0" head_lead_length = "0" tail_lead_angle = "0.000000"/>
+      <line head_lead_angle = "0.000000" head_lead = "false" layer_id = "1" tail_lead = "false" line_type = "0" auto_angle = "true" lead_method = "0" points = "55800,104900,10000;55900,102650;" work_method = "0" segment_length = "1000" drill_time = "1000" axis = "x,y,p" tail_lead_length = "0" overlap_length = "0" blank_length = "1000" head_lead_length = "0" tail_lead_angle = "0.000000"/>
+      <line head_lead_angle = "0.000000" head_lead = "false" layer_id = "1" tail_lead = "false" line_type = "0" auto_angle = "true" lead_method = "0" points = "44624,58985,10000;46320,58985;46320,46439;44770,46439;44770,43825;44882,43555;44973,43173;45004,42782;44973,42391;44882,42009;44732,41647;44527,41313;44272,41014;43973,40759;43639,40554;43277,40404;42895,40313;42504,40282;42113,40313;42070,40323;42070,51439;41070,51439;41070,40395;40727,40313;40336,40282;39945,40313;39563,40404;39201,40554;38867,40759;38568,41014;38313,41313;38108,41647;37958,42009;37867,42391;37836,42782;37867,43173;37958,43555;38070,43825;38070,46439;38070,54439;" work_method = "0" segment_length = "0" drill_time = "0" axis = "x,y,p" tail_lead_length = "0" overlap_length = "0" blank_length = "0" head_lead_length = "0" tail_lead_angle = "0.000000"/>
+      <line head_lead_angle = "0.000000" head_lead = "false" layer_id = "1" tail_lead = "false" line_type = "0" auto_angle = "true" lead_method = "0" points = "38080,46439,10000;36520,46439;" work_method = "0" segment_length = "0" drill_time = "0" axis = "x,y,p" tail_lead_length = "0" overlap_length = "0" blank_length = "0" head_lead_length = "0" tail_lead_angle = "0.000000"/>
+      <line head_lead_angle = "0.000000" head_lead = "false" layer_id = "1" tail_lead = "false" line_type = "0" auto_angle = "true" lead_method = "0" points = "34844,58995,10000;36540,58995;36540,46449;34990,46449;34990,43835;35102,43565;35193,43183;35224,42792;35193,42401;35102,42019;34952,41657;34747,41323;34492,41024;34193,40769;33859,40564;33497,40414;33115,40323;32724,40292;32333,40323;32290,40333;32290,51449;31290,51449;31290,40405;30947,40323;30556,40292;30165,40323;29783,40414;29421,40564;29087,40769;28788,41024;28533,41323;28328,41657;28178,42019;28087,42401;28056,42792;28087,43183;28178,43565;28290,43835;28290,46449;28290,54449;" work_method = "0" segment_length = "0" drill_time = "0" axis = "x,y,p" tail_lead_length = "0" overlap_length = "0" blank_length = "0" head_lead_length = "0" tail_lead_angle = "0.000000"/>
+      <line head_lead_angle = "0.000000" head_lead = "false" layer_id = "1" tail_lead = "false" line_type = "0" auto_angle = "true" lead_method = "0" points = "28280,46449,10000;26740,46449;" work_method = "0" segment_length = "0" drill_time = "0" axis = "x,y,p" tail_lead_length = "0" overlap_length = "0" blank_length = "0" head_lead_length = "0" tail_lead_angle = "0.000000"/>
+      <line head_lead_angle = "0.000000" head_lead = "false" layer_id = "1" tail_lead = "false" line_type = "0" auto_angle = "false" lead_method = "0" points = "64897,20094,10000;63660,21332;71438,29110;72676,27872;73383,28580;75363,26600;66170,17407;64190,19387;64897,20094;" work_method = "0" segment_length = "0" drill_time = "0" axis = "x,y,p" tail_lead_length = "0" overlap_length = "0" blank_length = "0" head_lead_length = "0" tail_lead_angle = "0.000000"/>
+      <line head_lead_angle = "0.000000" head_lead = "false" layer_id = "1" tail_lead = "false" line_type = "0" auto_angle = "true" lead_method = "0" points = "71544,31832,10000;71544,39130;70159,40515;67330,43344;72987,49001;75816,46172;72521,42877;76437,38960;78276,40798;78288,40786;78313,41268;78475,41874;78760,42432;79154,42920;79642,43314;80200,43599;80806,43761;81432,43794;82052,43696;82637,43471;83163,43130;83607,42686;83688,42561;80737,39610;80748,39599;80329,39133;79911,38409;79652,37614;79565,36782;79652,35950;79911,35155;80329,34431;80888,33809;81565,33318;82329,32978;83147,32804;83983,32804;84801,32978;85565,33318;86242,33809;86382,33965;86393,33954;89344,36905;89469,36824;89913,36380;90254,35854;90479,35269;90577,34649;90544,34023;90382,33417;90097,32859;89703,32371;89215,31977;88657,31692;88051,31530;87569,31505;87581,31493;85743,29654;88161,27236;90636,27236;90636,24236;89865,24236;89865,21736;90111,21335;90291,20900;90401,20442;90438,19973;90401,19504;90291,19046;90111,18611;89865,18210;89559,17852;89201,17546;88800,17300;88365,17120;87907,17010;87438,16973;86969,17010;86511,17120;86076,17300;85675,17546;85317,17852;85011,18210;84765,18611;84585,19046;84475,19504;84438,19973;84475,20442;84585,20900;84765,21335;85011,21736;85317,22094;85675,22400;86076,22646;86511,22826;86969,22936;87165,22951;87165,24236;80165,24236;80165,30936;79965,30936;79965,16995;79692,16973;79223,17010;78765,17120;78330,17300;77929,17546;77571,17852;77265,18210;77019,18611;76839,19046;76729,19504;76692,19973;76729,20442;76839,20900;77019,21335;77265,21736;77265,24236;77265,33636;" work_method = "0" segment_length = "0" drill_time = "0" axis = "x,y,p" tail_lead_length = "0" overlap_length = "0" blank_length = "0" head_lead_length = "0" tail_lead_angle = "0.000000"/>
+      <line head_lead_angle = "0.000000" head_lead = "false" layer_id = "1" tail_lead = "false" line_type = "0" auto_angle = "true" lead_method = "0" points = "77263,24236,10000;75262,24236;65887,14862;60230,20519;65449,25738;" work_method = "0" segment_length = "0" drill_time = "0" axis = "x,y,p" tail_lead_length = "0" overlap_length = "0" blank_length = "0" head_lead_length = "0" tail_lead_angle = "0.000000"/>
+      <line head_lead_angle = "0.000000" head_lead = "false" layer_id = "1" tail_lead = "false" line_type = "0" auto_angle = "true" lead_method = "0" points = "35010,120101,10000;37089,120101;37089,120701;38290,120701;38289,120101;41089,120101;41089,120701;42290,120701;42290,120101;75789,120101;75789,117721;78400,117721;78527,117829;78861,118034;79223,118184;79605,118275;79996,118306;80387,118275;80769,118184;81131,118034;81465,117829;81764,117574;82019,117275;82224,116941;82374,116579;82465,116197;82496,115806;82465,115415;82374,115033;82224,114671;82019,114337;81764,114038;81465,113783;81131,113578;80769,113428;80387,113337;79996,113306;79605,113337;79223,113428;78861,113578;78527,113783;78228,114038;77973,114337;77768,114671;77747,114721;75789,114721;75789,110821;66789,110821;66789,110321;82245,110321;82374,110009;82465,109627;82496,109236;82465,108845;82374,108463;82224,108101;82019,107767;81764,107468;81465,107213;81131,107008;80769,106858;80387,106767;79996,106736;79605,106767;79223,106858;78861,107008;78527,107213;78400,107321;63789,107321;" work_method = "0" segment_length = "0" drill_time = "0" axis = "x,y,p" tail_lead_length = "0" overlap_length = "0" blank_length = "0" head_lead_length = "0" tail_lead_angle = "0.000000"/>
+      <line head_lead_angle = "0.000000" head_lead = "false" layer_id = "1" tail_lead = "false" line_type = "0" auto_angle = "true" lead_method = "0" points = "75789,107296,10000;75789,104941;74830,104941;" work_method = "0" segment_length = "0" drill_time = "0" axis = "x,y,p" tail_lead_length = "0" overlap_length = "0" blank_length = "0" head_lead_length = "0" tail_lead_angle = "0.000000"/>
+      <line head_lead_angle = "0.000000" head_lead = "false" layer_id = "1" tail_lead = "false" line_type = "0" auto_angle = "true" lead_method = "0" points = "0,22119,10000;13770,22119;13770,19508;13662,19381;13457,19047;13307,18685;13216,18303;13185,17912;13216,17521;13307,17139;13457,16777;13662,16443;13917,16144;14216,15889;14550,15684;14912,15534;15294,15443;15685,15412;16076,15443;16458,15534;16820,15684;17154,15889;17453,16144;17708,16443;17913,16777;18000,16987;18000,18837;17913,19047;17708,19381;17453,19680;17154,19935;16820,20140;16770,20161;16770,22119;18230,22119;18230,28119;19230,28119;19230,15663;19542,15534;19924,15443;20315,15412;20706,15443;21088,15534;21450,15684;21784,15889;22083,16144;22338,16443;22543,16777;22693,17139;22784,17521;22815,17912;22784,18303;22693,18685;22543,19047;22338,19381;22230,19508;22230,31119;" work_method = "0" segment_length = "0" drill_time = "0" axis = "x,y,p" tail_lead_length = "0" overlap_length = "0" blank_length = "0" head_lead_length = "0" tail_lead_angle = "0.000000"/>
+      <line head_lead_angle = "0.000000" head_lead = "false" layer_id = "1" tail_lead = "false" line_type = "0" auto_angle = "true" lead_method = "0" points = "22280,22119,10000;48750,22119;" work_method = "0" segment_length = "0" drill_time = "0" axis = "x,y,p" tail_lead_length = "0" overlap_length = "0" blank_length = "0" head_lead_length = "0" tail_lead_angle = "0.000000"/>
+      <line head_lead_angle = "0.000000" head_lead = "false" layer_id = "1" tail_lead = "false" line_type = "0" auto_angle = "true" lead_method = "0" points = "112563,95227,10000;113531,95132;113660,95079;113790,95028;113921,94979;114053,94933;114186,94889;114319,94847;114453,94808;114587,94771;114723,94736;114858,94704;114995,94674;115132,94647;115269,94622;115407,94599;115545,94579;115683,94561;115822,94545;115961,94532;116100,94522;116240,94513;116379,94508;116519,94504;116659,94503;116798,94505;116938,94509;117077,94515;117217,94524;117356,94536;117495,94549;117633,94565;117772,94584;117910,94605;118047,94628;118185,94654;118321,94682;118458,94713;118593,94746;118728,94781;118863,94819;118997,94859;119130,94901;119262,94946;119394,94992;119524,95042;119654,95093;119783,95147;119911,95203;120038,95261;120164,95321;120288,95384;120412,95449;120535,95516;120656,95585;120776,95656;120895,95729;121013,95805;121129,95882;121244,95961;121357,96043;121469,96126;121580,96211;121689,96298;121796,96387;121902,96478;122007,96571;122109,96666;122210,96762;122310,96860;122407,96960;122503,97061;122597,97165;122690,97269;122780,97376;122869,97484;122955,97593;123040,97704;123123,97817;123204,97931;123282,98046;123359,98162;123434,98280;123507,98400;123577,98520;123646,98642;123712,98765;123776,98889;123838,99014;123898,99140;123956,99267;124011,99395;124064,99524;124115,99654;124164,99785;124210,99917;124254,100050;124295,100183;124335,100317;124372,100451;124406,100587;124439,100722;124469,100859;124496,100996;124521,101133;124544,101271;124564,101409;124582,101547;124598,101686;124611,101825;124621,101964;124629,102104;124635,102243;124639,102383;124639,102523;124638,102662;124634,102802;124627,102941;124619,103081;124607,103220;124594,103359;124577,103497;124559,103636;124538,103774;124515,103911;124489,104049;124461,104185;124430,104322;124397,104457;124362,104592;124324,104727;124284,104861;124242,104994;124197,105126;124150,105258;124101,105388;124050,105518;123996,105647;123940,105775;123882,105902;123821,106028;123759,106152;123694,106276;123627,106399;123558,106520;123487,106640;123414,106759;123338,106877;123261,106993;123182,107108;123100,107221;123017,107333;122932,107444;122845,107553;122755,107660;122665,107766;122572,107871;122477,107973;122381,108074;122283,108174;122183,108271;122081,108367;121978,108461;121873,108554;121767,108644;121659,108733;121550,108819;121439,108904;121326,108987;121212,109068;121097,109146;120980,109223;120863,109298;120743,109371;120623,109441;120501,109510;120378,109576;120254,109640;120129,109702;120003,109762;119876,109820;119748,109875;119619,109928;119489,109979;119358,110028;119226,110074;119093,110118;118960,110159;118826,110199;118691,110236;118556,110270;118420,110303;118284,110333;118147,110360;118010,110385;117872,110408;117734,110428;117595,110446;117457,110462;117318,110475;117178,110485;117039,110493;116900,110499;116760,110503;116620,110503;116481,110502;116341,110498;116202,110491;116062,110483;115923,110471;115784,110458;115645,110441;115507,110423;115369,110402;115231,110379;115094,110353;114957,110325;114821,110294;114685,110261;114550,110226;114416,110188;114282,110148;114149,110106;114017,110061;113885,110014;113755,109965;113625,109914;113496,109860;113368,109804;113241,109746;112575,109605;" work_method = "0" segment_length = "1000" drill_time = "1000" axis = "x,y,p" tail_lead_length = "0" overlap_length = "0" blank_length = "1000" head_lead_length = "0" tail_lead_angle = "0.000000"/>
+      <line head_lead_angle = "0.000000" head_lead = "false" layer_id = "1" tail_lead = "false" line_type = "0" auto_angle = "true" lead_method = "0" points = "116215,90510,10000;116700,90501;117264,90520;117473,90532;117682,90549;117890,90569;118098,90592;118306,90620;118513,90651;118720,90685;118926,90723;119131,90765;119335,90810;119539,90859;119742,90911;119944,90967;120144,91027;120344,91090;120543,91156;120740,91226;120936,91299;121131,91376;121325,91456;121517,91539;121708,91626;121897,91716;122084,91810;122270,91906;122454,92006;122636,92109;122817,92216;122995,92325;123172,92437;123347,92553;123519,92672;123690,92793;123858,92918;124024,93045;124188,93175;124350,93309;124509,93445;124666,93583;124821,93725;124973,93869;125122,94016;125269,94165;125413,94317;125555,94471;125694,94628;125830,94787;125963,94949;126093,95113;126221,95279;126345,95447;126467,95618;126586,95790;126701,95965;126814,96141;126924,96320;127030,96500;127133,96683;127233,96867;127330,97052;127423,97240;127514,97429;127600,97619;127684,97811;127764,98005;127841,98200;127915,98396;127984,98593;128051,98792;128114,98991;128174,99192;128230,99394;128282,99597;128331,99800;128376,100005;128418,100210;128456,100416;128491,100623;128522,100830;128550,101037;128573,101245;128593,101454;128610,101663;128623,101872;128632,102081;128638,102290;128639,102500;128638,102709;128632,102919;128623,103128;128610,103337;128594,103546;128574,103754;128550,103962;128523,104170;128492,104377;128458,104584;128420,104790;128378,104995;128333,105199;128284,105403;128231,105606;128176,105808;128116,106008;128053,106208;127987,106407;127917,106604;127844,106800;127767,106995;127687,107189;127603,107381;127517,107572;127427,107761;127333,107948;127237,108134;127137,108318;127034,108500;126927,108681;126818,108859;126705,109036;126590,109211;126471,109383;126350,109554;126225,109722;126098,109888;125967,110052;125834,110214;125698,110373;125560,110530;125418,110685;125274,110837;125127,110986;124978,111133;124826,111277;124672,111419;124515,111558;124356,111694;124194,111827;124030,111957;123864,112085;123696,112209;123525,112331;123353,112450;123178,112565;123002,112678;122823,112788;122643,112894;122460,112997;122276,113097;122091,113194;121903,113287;121714,113378;121524,113464;121332,113548;121138,113628;120943,113705;120747,113779;120550,113848;120351,113915;120151,113978;119951,114038;119749,114094;119546,114146;119342,114195;119138,114240;118933,114282;118727,114320;118520,114355;118313,114386;118106,114414;117897,114437;117689,114457;117480,114474;117271,114487;117062,114496;116853,114502;116643,114503;116434,114502;116224,114496;116015,114487;115806,114474;115597,114458;115389,114438;115181,114414;114973,114387;114766,114356;114559,114322;114353,114284;114148,114242;113944,114197;113740,114148;113537,114095;113335,114040;113134,113980;112935,113917;112736,113851;112539,113781;" work_method = "0" segment_length = "1000" drill_time = "1000" axis = "x,y,p" tail_lead_length = "0" overlap_length = "0" blank_length = "1000" head_lead_length = "0" tail_lead_angle = "0.000000"/>
+      <line head_lead_angle = "0.000000" head_lead = "false" layer_id = "1" tail_lead = "false" line_type = "0" auto_angle = "true" lead_method = "0" points = "112532,91228,10000;112729,91158;112928,91092;113127,91029;113328,90969;113530,90913;113733,90861;113936,90812;114141,90766;114346,90725;114552,90686;114759,90652;114966,90621;115173,90593;115277,90582;" work_method = "0" segment_length = "1000" drill_time = "1000" axis = "x,y,p" tail_lead_length = "0" overlap_length = "0" blank_length = "1000" head_lead_length = "0" tail_lead_angle = "0.000000"/>
+      <line head_lead_angle = "0.000000" head_lead = "false" layer_id = "1" tail_lead = "false" line_type = "0" auto_angle = "true" lead_method = "0" points = "115282,90582,10000;115386,90570;115595,90549;115804,90533;116013,90520;116222,90511;" work_method = "0" segment_length = "1000" drill_time = "1000" axis = "x,y,p" tail_lead_length = "0" overlap_length = "0" blank_length = "1000" head_lead_length = "0" tail_lead_angle = "0.000000"/>
+      <line head_lead_angle = "0.000000" head_lead = "false" layer_id = "1" tail_lead = "false" line_type = "0" auto_angle = "true" lead_method = "0" points = "112563,66227,10000;113531,66132;113660,66079;113790,66028;113921,65979;114053,65933;114186,65889;114319,65847;114453,65808;114587,65771;114723,65736;114858,65704;114995,65674;115132,65647;115269,65622;115407,65599;115545,65579;115683,65561;115822,65545;115961,65532;116100,65522;116240,65513;116379,65508;116519,65504;116659,65503;116798,65505;116938,65509;117077,65515;117217,65524;117356,65536;117495,65549;117633,65565;117772,65584;117910,65605;118047,65628;118185,65654;118321,65682;118458,65713;118593,65746;118728,65781;118863,65819;118997,65859;119130,65901;119262,65946;119394,65992;119524,66042;119654,66093;119783,66147;119911,66203;120038,66261;120164,66321;120288,66384;120412,66449;120535,66516;120656,66585;120776,66656;120895,66729;121013,66805;121129,66882;121244,66961;121357,67043;121469,67126;121580,67211;121689,67298;121796,67387;121902,67478;122007,67571;122109,67666;122210,67762;122310,67860;122407,67960;122503,68061;122597,68165;122690,68269;122780,68376;122869,68484;122955,68593;123040,68704;123123,68817;123204,68931;123282,69046;123359,69162;123434,69280;123507,69400;123577,69520;123646,69642;123712,69765;123776,69889;123838,70014;123898,70140;123956,70267;124011,70395;124064,70524;124115,70654;124164,70785;124210,70917;124254,71050;124295,71183;124335,71317;124372,71451;124406,71587;124439,71722;124469,71859;124496,71996;124521,72133;124544,72271;124564,72409;124582,72547;124598,72686;124611,72825;124621,72964;124629,73104;124635,73243;124639,73383;124639,73523;124638,73662;124634,73802;124627,73941;124619,74081;124607,74220;124594,74359;124577,74497;124559,74636;124538,74774;124515,74911;124489,75049;124461,75185;124430,75322;124397,75457;124362,75592;124324,75727;124284,75861;124242,75994;124197,76126;124150,76258;124101,76388;124050,76518;123996,76647;123940,76775;123882,76902;123821,77028;123759,77152;123694,77276;123627,77399;123558,77520;123487,77640;123414,77759;123338,77877;123261,77993;123182,78108;123100,78221;123017,78333;122932,78444;122845,78553;122755,78660;122665,78766;122572,78871;122477,78973;122381,79074;122283,79174;122183,79271;122081,79367;121978,79461;121873,79554;121767,79644;121659,79733;121550,79819;121439,79904;121326,79987;121212,80068;121097,80146;120980,80223;120863,80298;120743,80371;120623,80441;120501,80510;120378,80576;120254,80640;120129,80702;120003,80762;119876,80820;119748,80875;119619,80928;119489,80979;119358,81028;119226,81074;119093,81118;118960,81159;118826,81199;118691,81236;118556,81270;118420,81303;118284,81333;118147,81360;118010,81385;117872,81408;117734,81428;117595,81446;117457,81462;117318,81475;117178,81485;117039,81493;116900,81499;116760,81503;116620,81503;116481,81502;116341,81498;116202,81491;116062,81483;115923,81471;115784,81458;115645,81441;115507,81423;115369,81402;115231,81379;115094,81353;114957,81325;114821,81294;114685,81261;114550,81226;114416,81188;114282,81148;114149,81106;114017,81061;113885,81014;113755,80965;113625,80914;113496,80860;113368,80804;113241,80746;112575,80605;" work_method = "0" segment_length = "1000" drill_time = "1000" axis = "x,y,p" tail_lead_length = "0" overlap_length = "0" blank_length = "1000" head_lead_length = "0" tail_lead_angle = "0.000000"/>
+      <line head_lead_angle = "0.000000" head_lead = "false" layer_id = "1" tail_lead = "false" line_type = "0" auto_angle = "true" lead_method = "0" points = "116220,61510,10000;116575,61506;116964,61505;117373,61522;117682,61549;117890,61569;118098,61592;118306,61620;118513,61651;118720,61685;118926,61723;119131,61765;119335,61810;119539,61859;119742,61911;119944,61967;120144,62027;120344,62090;120543,62156;120740,62226;120936,62299;121131,62376;121325,62456;121517,62539;121708,62626;121897,62716;122084,62810;122270,62906;122454,63006;122636,63109;122817,63216;122995,63325;123172,63437;123347,63553;123519,63672;123690,63793;123858,63918;124024,64045;124188,64175;124350,64309;124509,64445;124666,64583;124821,64725;124973,64869;125122,65016;125269,65165;125413,65317;125555,65471;125694,65628;125830,65787;125963,65949;126093,66113;126221,66279;126345,66447;126467,66618;126586,66790;126701,66965;126814,67141;126924,67320;127030,67500;127133,67683;127233,67867;127330,68052;127423,68240;127514,68429;127600,68619;127684,68811;127764,69005;127841,69200;127915,69396;127984,69593;128051,69792;128114,69991;128174,70192;128230,70394;128282,70597;128331,70800;128376,71005;128418,71210;128456,71416;128491,71623;128522,71830;128550,72037;128573,72245;128593,72454;128610,72663;128623,72872;128632,73081;128638,73290;128639,73500;128638,73709;128632,73919;128623,74128;128610,74337;128594,74546;128574,74754;128550,74962;128523,75170;128492,75377;128458,75584;128420,75790;128378,75995;128333,76199;128284,76403;128231,76606;128176,76808;128116,77008;128053,77208;127987,77407;127917,77604;127844,77800;127767,77995;127687,78189;127603,78381;127517,78572;127427,78761;127333,78948;127237,79134;127137,79318;127034,79500;126927,79681;126818,79859;126705,80036;126590,80211;126471,80383;126350,80554;126225,80722;126098,80888;125967,81052;125834,81214;125698,81373;125560,81530;125418,81685;125274,81837;125127,81986;124978,82133;124826,82277;124672,82419;124515,82558;124356,82694;124194,82827;124030,82957;123864,83085;123696,83209;123525,83331;123353,83450;123178,83565;123002,83678;122823,83788;122643,83894;122460,83997;122276,84097;122091,84194;121903,84287;121714,84378;121524,84464;121332,84548;121138,84628;120943,84705;120747,84779;120550,84848;120351,84915;120151,84978;119951,85038;119749,85094;119546,85146;119342,85195;119138,85240;118933,85282;118727,85320;118520,85355;118313,85386;118106,85414;117897,85437;117689,85457;117480,85474;117271,85487;117062,85496;116853,85502;116643,85503;116434,85502;116224,85496;116015,85487;115806,85474;115597,85458;115389,85438;115181,85414;114973,85387;114766,85356;114559,85322;114353,85284;114148,85242;113944,85197;113740,85148;113537,85095;113335,85040;113134,84980;112935,84917;112736,84851;112539,84781;" work_method = "0" segment_length = "1000" drill_time = "1000" axis = "x,y,p" tail_lead_length = "0" overlap_length = "0" blank_length = "1000" head_lead_length = "0" tail_lead_angle = "0.000000"/>
+      <line head_lead_angle = "0.000000" head_lead = "false" layer_id = "1" tail_lead = "false" line_type = "0" auto_angle = "true" lead_method = "0" points = "112532,62228,10000;112729,62158;112928,62092;113127,62029;113328,61969;113530,61913;113733,61861;113936,61812;114141,61766;114346,61725;114552,61686;114759,61652;114966,61621;115173,61593;115277,61582;" work_method = "0" segment_length = "1000" drill_time = "1000" axis = "x,y,p" tail_lead_length = "0" overlap_length = "0" blank_length = "1000" head_lead_length = "0" tail_lead_angle = "0.000000"/>
+      <line head_lead_angle = "0.000000" head_lead = "false" layer_id = "1" tail_lead = "false" line_type = "0" auto_angle = "true" lead_method = "0" points = "115282,61582,10000;115386,61570;115595,61549;115804,61533;116013,61520;116222,61511;" work_method = "0" segment_length = "1000" drill_time = "1000" axis = "x,y,p" tail_lead_length = "0" overlap_length = "0" blank_length = "1000" head_lead_length = "0" tail_lead_angle = "0.000000"/>
+      <line head_lead_angle = "0.000000" head_lead = "false" layer_id = "1" tail_lead = "false" line_type = "0" auto_angle = "true" lead_method = "0" points = "112563,122227,10000;113531,122132;113660,122079;113790,122028;113921,121979;114053,121933;114186,121889;114319,121847;114453,121808;114587,121771;114723,121736;114858,121704;114995,121674;115132,121647;115269,121622;115407,121599;115545,121579;115683,121561;115822,121545;115961,121532;116100,121522;116240,121513;116379,121508;116519,121504;116659,121503;116798,121505;116938,121509;117077,121515;117217,121524;117356,121536;117495,121549;117633,121565;117772,121584;117910,121605;118047,121628;118185,121654;118321,121682;118458,121713;118593,121746;118728,121781;118863,121819;118997,121859;119130,121901;119262,121946;119394,121992;119524,122042;119654,122093;119783,122147;119911,122203;120038,122261;120164,122321;120288,122384;120412,122449;120535,122516;120656,122585;120776,122656;120895,122729;121013,122805;121129,122882;121244,122961;121357,123043;121469,123126;121580,123211;121689,123298;121796,123387;121902,123478;122007,123571;122109,123666;122210,123762;122310,123860;122407,123960;122503,124061;122597,124165;122690,124269;122780,124376;122869,124484;122955,124593;123040,124704;123123,124817;123204,124931;123282,125046;123359,125162;123434,125280;123507,125400;123577,125520;123646,125642;123712,125765;123776,125889;123838,126014;123898,126140;123956,126267;124011,126395;124064,126524;124115,126654;124164,126785;124210,126917;124254,127050;124295,127183;124335,127317;124372,127451;124406,127587;124439,127722;124469,127859;124496,127996;124521,128133;124544,128271;124564,128409;124582,128547;124598,128686;124611,128825;124621,128964;124629,129104;124635,129243;124639,129383;124639,129523;124638,129662;124634,129802;124627,129941;124619,130081;124607,130220;124594,130359;124577,130497;124559,130636;124538,130774;124515,130911;124489,131049;124461,131185;124430,131322;124397,131457;124362,131592;124324,131727;124284,131861;124242,131994;124197,132126;124150,132258;124101,132388;124050,132518;123996,132647;123940,132775;123882,132902;123821,133028;123759,133152;123694,133276;123627,133399;123558,133520;123487,133640;123414,133759;123338,133877;123261,133993;123182,134108;123100,134221;123017,134333;122932,134444;122845,134553;122755,134660;122665,134766;122572,134871;122477,134973;122381,135074;122283,135174;122183,135271;122081,135367;121978,135461;121873,135554;121767,135644;121659,135733;121550,135819;121439,135904;121326,135987;121212,136068;121097,136146;120980,136223;120863,136298;120743,136371;120623,136441;120501,136510;120378,136576;120254,136640;120129,136702;120003,136762;119876,136820;119748,136875;119619,136928;119489,136979;119358,137028;119226,137074;119093,137118;118960,137159;118826,137199;118691,137236;118556,137270;118420,137303;118284,137333;118147,137360;118010,137385;117872,137408;117734,137428;117595,137446;117457,137462;117318,137475;117178,137485;117039,137493;116900,137499;116760,137503;116620,137503;116481,137502;116341,137498;116202,137491;116062,137483;115923,137471;115784,137458;115645,137441;115507,137423;115369,137402;115231,137379;115094,137353;114957,137325;114821,137294;114685,137261;114550,137226;114416,137188;114282,137148;114149,137106;114017,137061;113885,137014;113755,136965;113625,136914;113496,136860;113368,136804;113241,136746;112575,136605;" work_method = "0" segment_length = "1000" drill_time = "1000" axis = "x,y,p" tail_lead_length = "0" overlap_length = "0" blank_length = "1000" head_lead_length = "0" tail_lead_angle = "0.000000"/>
+      <line head_lead_angle = "0.000000" head_lead = "false" layer_id = "1" tail_lead = "false" line_type = "0" auto_angle = "true" lead_method = "0" points = "116219,117513,10000;116471,117507;116922,117508;117473,117532;117682,117549;117890,117569;118098,117592;118306,117620;118513,117651;118720,117685;118926,117723;119131,117765;119335,117810;119539,117859;119742,117911;119944,117967;120144,118027;120344,118090;120543,118156;120740,118226;120936,118299;121131,118376;121325,118456;121517,118539;121708,118626;121897,118716;122084,118810;122270,118906;122454,119006;122636,119109;122817,119216;122995,119325;123172,119437;123347,119553;123519,119672;123690,119793;123858,119918;124024,120045;124188,120175;124350,120309;124509,120445;124666,120583;124821,120725;124973,120869;125122,121016;125269,121165;125413,121317;125555,121471;125694,121628;125830,121787;125963,121949;126093,122113;126221,122279;126345,122447;126467,122618;126586,122790;126701,122965;126814,123141;126924,123320;127030,123500;127133,123683;127233,123867;127330,124052;127423,124240;127514,124429;127600,124619;127684,124811;127764,125005;127841,125200;127915,125396;127984,125593;128051,125792;128114,125991;128174,126192;128230,126394;128282,126597;128331,126800;128376,127005;128418,127210;128456,127416;128491,127623;128522,127830;128550,128037;128573,128245;128593,128454;128610,128663;128623,128872;128632,129081;128638,129290;128639,129500;128638,129709;128632,129919;128623,130128;128610,130337;128594,130546;128574,130754;128550,130962;128523,131170;128492,131377;128458,131584;128420,131790;128378,131995;128333,132199;128284,132403;128231,132606;128176,132808;128116,133008;128053,133208;127987,133407;127917,133604;127844,133800;127767,133995;127687,134189;127603,134381;127517,134572;127427,134761;127333,134948;127237,135134;127137,135318;127034,135500;126927,135681;126818,135859;126705,136036;126590,136211;126471,136383;126350,136554;126225,136722;126098,136888;125967,137052;125834,137214;125698,137373;125560,137530;125418,137685;125274,137837;125127,137986;124978,138133;124826,138277;124672,138419;124515,138558;124356,138694;124194,138827;124030,138957;123864,139085;123696,139209;123525,139331;123353,139450;123178,139565;123002,139678;122823,139788;122643,139894;122460,139997;122276,140097;122091,140194;121903,140287;121714,140378;121524,140464;121332,140548;121138,140628;120943,140705;120747,140779;120550,140848;120351,140915;120151,140978;119951,141038;119749,141094;119546,141146;119342,141195;119138,141240;118933,141282;118727,141320;118520,141355;118313,141386;118106,141414;117897,141437;117689,141457;117480,141474;117271,141487;117062,141496;116853,141502;116643,141503;116434,141502;116224,141496;116015,141487;115806,141474;115597,141458;115389,141438;115181,141414;114973,141387;114766,141356;114559,141322;114353,141284;114148,141242;113944,141197;113740,141148;113537,141095;113335,141040;113134,140980;112935,140917;112736,140851;112539,140781;" work_method = "0" segment_length = "1000" drill_time = "1000" axis = "x,y,p" tail_lead_length = "0" overlap_length = "0" blank_length = "1000" head_lead_length = "0" tail_lead_angle = "0.000000"/>
+      <line head_lead_angle = "0.000000" head_lead = "false" layer_id = "1" tail_lead = "false" line_type = "0" auto_angle = "true" lead_method = "0" points = "112532,118228,10000;112729,118158;112928,118092;113127,118029;113328,117969;113530,117913;113733,117861;113936,117812;114141,117766;114346,117725;114552,117686;114759,117652;114966,117621;115173,117593;115277,117582;" work_method = "0" segment_length = "1000" drill_time = "1000" axis = "x,y,p" tail_lead_length = "0" overlap_length = "0" blank_length = "1000" head_lead_length = "0" tail_lead_angle = "0.000000"/>
+      <line head_lead_angle = "0.000000" head_lead = "false" layer_id = "1" tail_lead = "false" line_type = "0" auto_angle = "true" lead_method = "0" points = "115282,117582,10000;115386,117570;115595,117549;115804,117533;116013,117520;116222,117511;" work_method = "0" segment_length = "1000" drill_time = "1000" axis = "x,y,p" tail_lead_length = "0" overlap_length = "0" blank_length = "1000" head_lead_length = "0" tail_lead_angle = "0.000000"/>
+      <line head_lead_angle = "0.000000" head_lead = "false" layer_id = "1" tail_lead = "false" line_type = "0" auto_angle = "true" lead_method = "0" points = "115030,186432,10000;120330,186432;120330,182432;114630,182432;114630,179632;120330,179632;120330,171632;112530,171632;112530,140400;" work_method = "0" segment_length = "1000" drill_time = "1000" axis = "x,y,p" tail_lead_length = "0" overlap_length = "0" blank_length = "1000" head_lead_length = "0" tail_lead_angle = "0.000000"/>
+      <line head_lead_angle = "0.000000" head_lead = "false" layer_id = "1" tail_lead = "false" line_type = "0" auto_angle = "true" lead_method = "0" points = "112530,136800,10000;112530,122000;" work_method = "0" segment_length = "1000" drill_time = "1000" axis = "x,y,p" tail_lead_length = "0" overlap_length = "0" blank_length = "1000" head_lead_length = "0" tail_lead_angle = "0.000000"/>
+      <line head_lead_angle = "0.000000" head_lead = "false" layer_id = "1" tail_lead = "false" line_type = "0" auto_angle = "true" lead_method = "0" points = "112530,118200,10000;112530,113400;" work_method = "0" segment_length = "1000" drill_time = "1000" axis = "x,y,p" tail_lead_length = "0" overlap_length = "0" blank_length = "1000" head_lead_length = "0" tail_lead_angle = "0.000000"/>
+      <line head_lead_angle = "0.000000" head_lead = "false" layer_id = "1" tail_lead = "false" line_type = "0" auto_angle = "true" lead_method = "0" points = "112530,109600,10000;112530,94800;" work_method = "0" segment_length = "1000" drill_time = "1000" axis = "x,y,p" tail_lead_length = "0" overlap_length = "0" blank_length = "1000" head_lead_length = "0" tail_lead_angle = "0.000000"/>
+      <line head_lead_angle = "0.000000" head_lead = "false" layer_id = "1" tail_lead = "false" line_type = "0" auto_angle = "true" lead_method = "0" points = "112530,91200,10000;112530,84600;" work_method = "0" segment_length = "1000" drill_time = "1000" axis = "x,y,p" tail_lead_length = "0" overlap_length = "0" blank_length = "1000" head_lead_length = "0" tail_lead_angle = "0.000000"/>
+      <line head_lead_angle = "0.000000" head_lead = "false" layer_id = "1" tail_lead = "false" line_type = "0" auto_angle = "true" lead_method = "0" points = "112530,80600,10000;112530,66000;" work_method = "0" segment_length = "1000" drill_time = "1000" axis = "x,y,p" tail_lead_length = "0" overlap_length = "0" blank_length = "1000" head_lead_length = "0" tail_lead_angle = "0.000000"/>
+      <line head_lead_angle = "0.000000" head_lead = "false" layer_id = "1" tail_lead = "false" line_type = "0" auto_angle = "true" lead_method = "0" points = "112530,62200,10000;112530,32589;" work_method = "0" segment_length = "1000" drill_time = "1000" axis = "x,y,p" tail_lead_length = "0" overlap_length = "0" blank_length = "1000" head_lead_length = "0" tail_lead_angle = "0.000000"/>
+      <line head_lead_angle = "0.000000" head_lead = "false" layer_id = "1" tail_lead = "false" line_type = "0" auto_angle = "false" lead_method = "0" points = "94531,89499,10000;94531,83499;91731,83499;91731,89499;94531,89499;" work_method = "0" segment_length = "0" drill_time = "0" axis = "x,y,p" tail_lead_length = "0" overlap_length = "0" blank_length = "0" head_lead_length = "0" tail_lead_angle = "0.000000"/>
+      <line head_lead_angle = "0.000000" head_lead = "false" layer_id = "1" tail_lead = "false" line_type = "0" auto_angle = "false" lead_method = "0" points = "93564,105568,10000;93131,105499;92698,105568;92308,105766;91998,106076;91800,106466;91731,106899;91800,107332;91998,107722;92308,108032;92698,108230;93131,108299;93564,108230;93954,108032;94264,107722;94462,107332;94531,106899;94462,106466;94264,106076;93954,105766;93564,105568;" work_method = "0" segment_length = "0" drill_time = "0" axis = "x,y,p" tail_lead_length = "0" overlap_length = "0" blank_length = "0" head_lead_length = "0" tail_lead_angle = "0.000000"/>
+      <line head_lead_angle = "0.000000" head_lead = "false" layer_id = "1" tail_lead = "false" line_type = "0" auto_angle = "false" lead_method = "0" points = "94531,121501,10000;94531,115501;91731,115501;91731,121501;94531,121501;" work_method = "0" segment_length = "0" drill_time = "0" axis = "x,y,p" tail_lead_length = "0" overlap_length = "0" blank_length = "0" head_lead_length = "0" tail_lead_angle = "0.000000"/>
+      <line head_lead_angle = "0.000000" head_lead = "false" layer_id = "1" tail_lead = "false" line_type = "0" auto_angle = "false" lead_method = "0" points = "93564,137570,10000;93131,137501;92698,137570;92308,137768;91998,138078;91800,138468;91731,138901;91800,139334;91998,139724;92308,140034;92698,140232;93131,140301;93564,140232;93954,140034;94264,139724;94462,139334;94531,138901;94462,138468;94264,138078;93954,137768;93564,137570;" work_method = "0" segment_length = "0" drill_time = "0" axis = "x,y,p" tail_lead_length = "0" overlap_length = "0" blank_length = "0" head_lead_length = "0" tail_lead_angle = "0.000000"/>
+      <line head_lead_angle = "0.000000" head_lead = "false" layer_id = "1" tail_lead = "false" line_type = "0" auto_angle = "true" lead_method = "0" points = "88131,125899,10000;88131,140199;88131,143901;98131,143901;98131,113901;98131,111899;98131,81899;88131,81899;88131,111901;88131,113901;" work_method = "0" segment_length = "0" drill_time = "0" axis = "x,y,p" tail_lead_length = "0" overlap_length = "0" blank_length = "0" head_lead_length = "0" tail_lead_angle = "0.000000"/>
+      <group layer_id = "2">
+        <line head_lead_angle = "0.000000" head_lead = "false" tail_lead = "false" line_type = "0" auto_angle = "true" lead_method = "0" points = "38117,58985,10000;44617,58985;" work_method = "0" segment_length = "0" drill_time = "0" axis = "x,y,p" tail_lead_length = "0" overlap_length = "0" blank_length = "0" head_lead_length = "0" tail_lead_angle = "0.000000"/>
+        <line head_lead_angle = "0.000000" head_lead = "false" tail_lead = "false" line_type = "0" auto_angle = "true" lead_method = "0" points = "28337,58995,10000;34837,58995;" work_method = "0" segment_length = "0" drill_time = "0" axis = "x,y,p" tail_lead_length = "0" overlap_length = "0" blank_length = "0" head_lead_length = "0" tail_lead_angle = "0.000000"/>
+        <line head_lead_angle = "0.000000" head_lead = "false" tail_lead = "false" line_type = "0" auto_angle = "true" lead_method = "0" points = "25301,35397,10000;18601,35397;" work_method = "0" segment_length = "0" drill_time = "0" axis = "x,y,p" tail_lead_length = "0" overlap_length = "0" blank_length = "0" head_lead_length = "0" tail_lead_angle = "0.000000"/>
+        <line head_lead_angle = "0.000000" head_lead = "false" tail_lead = "false" line_type = "0" auto_angle = "true" lead_method = "0" points = "15451,35397,10000;8751,35397;" work_method = "0" segment_length = "0" drill_time = "0" axis = "x,y,p" tail_lead_length = "0" overlap_length = "0" blank_length = "0" head_lead_length = "0" tail_lead_angle = "0.000000"/>
+        <line head_lead_angle = "0.000000" head_lead = "false" tail_lead = "false" line_type = "0" auto_angle = "true" lead_method = "0" points = "48800,22119,10000;56500,22119;" work_method = "0" segment_length = "0" drill_time = "0" axis = "x,y,p" tail_lead_length = "0" overlap_length = "0" blank_length = "0" head_lead_length = "0" tail_lead_angle = "0.000000"/>
+        <line head_lead_angle = "0.000000" head_lead = "false" tail_lead = "false" line_type = "0" auto_angle = "true" lead_method = "0" points = "65443,25734,10000;71535,31826;" work_method = "0" segment_length = "0" drill_time = "0" axis = "x,y,p" tail_lead_length = "0" overlap_length = "0" blank_length = "0" head_lead_length = "0" tail_lead_angle = "0.000000"/>
+        <line head_lead_angle = "0.000000" head_lead = "false" tail_lead = "false" line_type = "0" auto_angle = "true" lead_method = "0" points = "38321,15400,10000;48121,15400;" work_method = "0" segment_length = "0" drill_time = "0" axis = "x,y,p" tail_lead_length = "0" overlap_length = "0" blank_length = "0" head_lead_length = "0" tail_lead_angle = "0.000000"/>
+      </group>
+      <group layer_id = "2">
+        <group>
+          <line head_lead_angle = "0.000000" head_lead = "false" tail_lead = "false" line_type = "0" auto_angle = "true" lead_method = "0" points = "98131,113901,10000;88131,113901;88131,125899;" work_method = "0" segment_length = "0" drill_time = "0" axis = "x,y,p" tail_lead_length = "0" overlap_length = "0" blank_length = "0" head_lead_length = "0" tail_lead_angle = "0.000000"/>
+          <line head_lead_angle = "0.000000" head_lead = "false" tail_lead = "false" line_type = "0" auto_angle = "true" lead_method = "0" points = "88131,111899,10000;98131,111899;" work_method = "0" segment_length = "0" drill_time = "0" axis = "x,y,p" tail_lead_length = "0" overlap_length = "0" blank_length = "0" head_lead_length = "0" tail_lead_angle = "0.000000"/>
+        </group>
+        <line head_lead_angle = "0.000000" head_lead = "false" tail_lead = "false" line_type = "0" auto_angle = "true" lead_method = "0" points = "74815,104941,10000;61615,104941;" work_method = "0" segment_length = "0" drill_time = "0" axis = "x,y,p" tail_lead_length = "0" overlap_length = "0" blank_length = "0" head_lead_length = "0" tail_lead_angle = "0.000000"/>
+        <line head_lead_angle = "0.000000" head_lead = "false" tail_lead = "false" line_type = "0" auto_angle = "true" lead_method = "0" points = "73100,84259,10000;73100,92009;" work_method = "0" segment_length = "0" drill_time = "0" axis = "x,y,p" tail_lead_length = "0" overlap_length = "0" blank_length = "0" head_lead_length = "0" tail_lead_angle = "0.000000"/>
+        <line head_lead_angle = "0.000000" head_lead = "false" tail_lead = "false" line_type = "0" auto_angle = "true" lead_method = "0" points = "55157,70690,10000;55157,76208;55157,78240;" work_method = "0" segment_length = "0" drill_time = "0" axis = "x,y,p" tail_lead_length = "0" overlap_length = "0" blank_length = "0" head_lead_length = "0" tail_lead_angle = "0.000000"/>
+        <line head_lead_angle = "0.000000" head_lead = "false" tail_lead = "false" line_type = "0" auto_angle = "true" lead_method = "0" points = "70401,68896,10000;62601,68896;" work_method = "0" segment_length = "0" drill_time = "0" axis = "x,y,p" tail_lead_length = "0" overlap_length = "0" blank_length = "0" head_lead_length = "0" tail_lead_angle = "0.000000"/>
+      </group>
+      <group layer_id = "2">
+        <group>
+          <line head_lead_angle = "0.000000" head_lead = "false" tail_lead = "false" line_type = "0" auto_angle = "true" lead_method = "0" points = "46130,122072,10000;39530,122072;" work_method = "0" segment_length = "0" drill_time = "0" axis = "x,y,p" tail_lead_length = "0" overlap_length = "0" blank_length = "0" head_lead_length = "0" tail_lead_angle = "0.000000"/>
+          <line head_lead_angle = "0.000000" head_lead = "false" tail_lead = "false" line_type = "0" auto_angle = "true" lead_method = "0" points = "21330,122672,10000;13930,122672;" work_method = "0" segment_length = "0" drill_time = "0" axis = "x,y,p" tail_lead_length = "0" overlap_length = "0" blank_length = "0" head_lead_length = "0" tail_lead_angle = "0.000000"/>
+        </group>
+        <line head_lead_angle = "0.000000" head_lead = "false" tail_lead = "false" line_type = "0" auto_angle = "true" lead_method = "0" points = "79500,168176,10000;79500,159296;" work_method = "0" segment_length = "0" drill_time = "0" axis = "x,y,p" tail_lead_length = "0" overlap_length = "0" blank_length = "0" head_lead_length = "0" tail_lead_angle = "0.000000"/>
+        <line head_lead_angle = "0.000000" head_lead = "false" tail_lead = "false" line_type = "0" auto_angle = "true" lead_method = "0" points = "80085,142996,10000;80085,133996;" work_method = "0" segment_length = "0" drill_time = "0" axis = "x,y,p" tail_lead_length = "0" overlap_length = "0" blank_length = "0" head_lead_length = "0" tail_lead_angle = "0.000000"/>
+        <line head_lead_angle = "0.000000" head_lead = "false" tail_lead = "false" line_type = "0" auto_angle = "true" lead_method = "0" points = "98180,159712,10000;98180,144000;" work_method = "0" segment_length = "1000" drill_time = "1000" axis = "x,y,p" tail_lead_length = "0" overlap_length = "0" blank_length = "1000" head_lead_length = "0" tail_lead_angle = "0.000000"/>
+      </group>
+      <group layer_id = "3">
+        <line head_lead_angle = "0.000000" head_lead = "false" tail_lead = "false" line_type = "0" auto_angle = "true" lead_method = "0" points = "112539,95223,10000;112539,91203;" work_method = "0" segment_length = "1000" drill_time = "1000" axis = "x,y,p" tail_lead_length = "0" overlap_length = "0" blank_length = "1000" head_lead_length = "0" tail_lead_angle = "0.000000"/>
+        <line head_lead_angle = "0.000000" head_lead = "false" tail_lead = "false" line_type = "0" auto_angle = "true" lead_method = "0" points = "112579,84803,10000;112559,80583;" work_method = "0" segment_length = "1000" drill_time = "1000" axis = "x,y,p" tail_lead_length = "0" overlap_length = "0" blank_length = "1000" head_lead_length = "0" tail_lead_angle = "0.000000"/>
+        <line head_lead_angle = "0.000000" head_lead = "false" tail_lead = "false" line_type = "0" auto_angle = "true" lead_method = "0" points = "112539,66223,10000;112539,62203;" work_method = "0" segment_length = "1000" drill_time = "1000" axis = "x,y,p" tail_lead_length = "0" overlap_length = "0" blank_length = "1000" head_lead_length = "0" tail_lead_angle = "0.000000"/>
+        <line head_lead_angle = "0.000000" head_lead = "false" tail_lead = "false" line_type = "0" auto_angle = "true" lead_method = "0" points = "112579,113803,10000;112559,109583;" work_method = "0" segment_length = "1000" drill_time = "1000" axis = "x,y,p" tail_lead_length = "0" overlap_length = "0" blank_length = "1000" head_lead_length = "0" tail_lead_angle = "0.000000"/>
+        <line head_lead_angle = "0.000000" head_lead = "false" tail_lead = "false" line_type = "0" auto_angle = "true" lead_method = "0" points = "112539,122223,10000;112539,118203;" work_method = "0" segment_length = "1000" drill_time = "1000" axis = "x,y,p" tail_lead_length = "0" overlap_length = "0" blank_length = "1000" head_lead_length = "0" tail_lead_angle = "0.000000"/>
+        <line head_lead_angle = "0.000000" head_lead = "false" tail_lead = "false" line_type = "0" auto_angle = "true" lead_method = "0" points = "112579,140803,10000;112559,136583;" work_method = "0" segment_length = "1000" drill_time = "1000" axis = "x,y,p" tail_lead_length = "0" overlap_length = "0" blank_length = "1000" head_lead_length = "0" tail_lead_angle = "0.000000"/>
+      </group>
+    </group>
+  </group_list>
+</smartcarve>
+<CRC>
+  <code value = "37a32c62"/>
+</CRC>
