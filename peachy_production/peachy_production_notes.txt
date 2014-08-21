@@ -1,0 +1,21 @@
+Peachy Productions Notes
+	-erik Aug 11 2014
+
+thread rod diameter 9.4mm
+disks should not overlap if made bigger
+disks could have lines to show alignment -> rotation detection could look for both aligned
+marked print area (off-centre of disk)
+labelled button panel
+
+print area should be cube -> disk pin distance is treadWidth*2/sqrt(2) -> disk radius is treadWidth (lol)
+
+
+	-erik Aug 21 2014
+
+made a few days ago, mostly assembled.
+sacrificed cubeness of build volume for a smaller physical size. track width is largest dimension, and slightly larger tall dimension than the left-right dimension.
+
+
+
+
+
